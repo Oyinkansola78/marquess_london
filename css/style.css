@@ -316,6 +316,23 @@ nav{
     color: #8b7701;
 }
 
+.custom_txtf2_md_md{
+    border-radius: 0%;
+    height: 64px;
+    width: 400px;
+    border-color: #8b7701;
+    color: #8b7701;
+}
+
+.custom_txtf2_sm{
+    border-radius: 0%;
+    height: 64px;
+    width: 270px;
+    border-color: #8b7701;
+    /* border-top-color: #8b7701; */
+    color: #8b7701;
+}
+
 .construction_sw{
     background-image: url(../imgs/swank_line/construction.jpg);
     background-size: cover;
@@ -743,6 +760,21 @@ nav{
     color: #fff;
 }
 
+.custom_btn_banner_sm{
+    border: 1px solid #b8a78d;
+    background-color: #b8a78d;
+    color: #fff;
+    border-radius: 0%;
+    width: 123px;
+    height: 64px;
+    font-size: 18px;
+}
+
+.custom_btn_banner_sm:hover{
+    background-color: #998100;
+    color: #fff;
+}
+
 .custom_btn{
     border: 1px solid #998100;
     background-color: #fff;
@@ -1134,6 +1166,15 @@ nav{
     left: 130px;
 }
 
+.lifestyle-title-link_sm {
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    top: 180px;
+    left: 60px;
+}
+
 .hp-title-link {
     color: #ffffff;
     font-weight: bold;
@@ -1375,10 +1416,25 @@ nav{
 
 }
 
+.form-box2_xs{
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 270px ;
+    padding-top: 60px;
+
+}
+
 .form-box3{
     border: 1px solid #fff;
     background-color: #fff;
     height: 270px ;
+    padding-top: 60px;
+}
+
+.form-box3_xs{
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 370px ;
     padding-top: 60px;
 }
 
@@ -1729,6 +1785,32 @@ nav{
 }
 
 .lifestyle_img_box>img{
+   object-fit: cover;
+}
+
+.lifestyle_img_box_md_md{
+    height: 500px;
+    width: 1000px;
+    background-color: #fff;
+    padding: 30px 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.lifestyle_img_box_md_md>img{
+   object-fit: cover;
+}
+
+.lifestyle_img_box_sm{
+    height: 500px;
+    width: 800px;
+    background-color: #fff;
+    padding: 30px 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.lifestyle_img_box_sm>img{
    object-fit: cover;
 }
 
