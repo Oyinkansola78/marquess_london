@@ -728,6 +728,25 @@ nav{
 .directors{
     height: 606px;
     width: 885px;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+
+.directors_sm{
+    height: 406px;
+    width: 550px;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+
+.directors_xs{
+    height: 330px;
+    width: 400px;
+    position: relative;
+    top: 50px;
+    left: -10px;
 }
 
 /* BUTTONS */
@@ -1836,6 +1855,38 @@ nav{
     line-height: 30px;
 }
 
+.story_box_md{
+    height: 830px;
+    width: 1500px;
+    background-color: #fff;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.story_box_md_md{
+    height: 930px;
+    width: 1500px;
+    background-color: #fff;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.story_box_sm{
+    height: 1100px;
+    width: 800px;
+    background-color: #fff;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.story_box_xs{
+    height: 1600px;
+    width: 500px;
+    background-color: #fff;
+    text-align: justify;
+    line-height: 30px;
+}
+
 .hp_box{
     background-color: #fff;
     /* padding: 10px; */
@@ -2140,7 +2191,7 @@ nav{
     }
 
     body{
-        background-color: rebeccapurple;
+        /* background-color: rebeccapurple; */
     }
 
     .show_bg{
@@ -2174,7 +2225,7 @@ nav{
     }
 
     body{
-        background-color: red;
+        /* background-color: red; */
     }
 
     .show_bg{
@@ -2199,7 +2250,7 @@ nav{
 
 @media only screen and (max-width: 1000px){
     body{
-        background-color: rebeccapurple;
+        /* background-color: rebeccapurple; */
     }
 
     .show_xs{
@@ -2237,7 +2288,7 @@ nav{
 
 @media only screen and (max-width: 800px){
     body{
-        background-color: red;
+        /* background-color: red; */
     }
 
     .nav_sm{
