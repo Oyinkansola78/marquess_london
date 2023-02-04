@@ -10,86 +10,361 @@
     <title>Marquess London | Terms and Conditions</title>
 </head>
 <body>
-    <div class="slider">
-        <marquee behavior="" direction=""><p class="slider white_text px-3 pt-2 mb-0"> <span class="boldd">Just In:</span> We’re closed for holidays from December 20th 2021 to Jan 9th 2022</p></marquee>
+    <div class="nav_hidden  mx-auto" id="nav_hidden">
+        <i class="fa-solid fa-xmark fa-3x mt-5 point mx-3" onclick="nav_show()"></i>
+        <div class="center">
+            <ul class="nav_sm_link">
+                <li class="point" onclick="tailoring_nav()">TAILORING</li>
+                    <ul class="nav_sm_link2" id="tailoring_nav_show">
+                        <li class="point"><a href="./process.html" class="clean_list2">OUR PROCESS</a></li>
+                        <li class="point"><a href="./swank_line.html" class="clean_list2">SWANK LINE</a></li>
+                        <li class="point"><a href="./modcon.html"class="clean_list2">MODCON LINE</a></li>
+                    </ul>
+                <li class="point">LIFESTYLE</li>
+                <li class="point"><a href="./marquess_man.html" class="clean_list2">MARQUESS MAN</a></li>
+                <li class="point"><a href="./story.html" class="clean_list2">OUR STORY</a></li>
+                <li class="point">GET IN TOUCH</li>
+            </ul>
+        </div>
     </div>
-    <div>
-        <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-4 show_bg">
-            <div class="container">
-                <ul class="navbar-nav">
-                    <li class="nav-item px-3">
-                        <div class="dropdown">
-                            <a class="dropbtn">T<span class="nav_line bold">AILORING</span></a>
-                            <div class="dropdown-content">
-                                <a href="./process.html">OUR PROCESS</a>
-                                <a href="./swank_line.html">SWANK LINE</a>
-                                <a href="./modcon.html">MODCON LINE</a>
+    <div id="nav_sm_body">
+        <div class="slider">
+            <marquee behavior="" direction=""><p class="slider white_text px-3 pt-2 mb-0"> <span class="boldd">Just In:</span> We’re closed for holidays from December 20th 2021 to Jan 9th 2022</p></marquee>
+        </div>
+        <div>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-4 show_bg">
+                <div class="container">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <div class="dropdown">
+                                <a class="dropbtn">T<span class="nav_line bold">AILORING</span></a>
+                                <div class="dropdown-content">
+                                    <a href="./process.html">OUR PROCESS</a>
+                                    <a href="./swank_line.html">SWANK LINE</a>
+                                    <a href="./modcon.html">MODCON LINE</a>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="nav-item px-3">L<span class="nav_line bold">IFESTYLE</span></li>
-                    <li class="nav-item px-3"><a href="./marquess_man.html" class="clean_list">M<span class="nav_line">ARQUESS MAN</span></a></li>
-                </ul>
-                <a class="navbar-brand" href="/index.html">
+                        </li>
+                        <li class="nav-item px-3">L<span class="nav_line bold">IFESTYLE</span></li>
+                        <li class="nav-item px-3"><a href="./marquess_man.html" class="clean_list">M<span class="nav_line">ARQUESS MAN</span></a></li>
+                    </ul>
+                    <a class="navbar-brand" href="/index.html">
+                        <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
+                        <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
+                        <li class="nav-item px-3 gray_text">G<span>ET IN TOUCH</span></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_md">
+                <a class="navbar-brand mx-5 my-5" href="#">
                     <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
                 </a>
-                <ul class="navbar-nav">
-                    <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
-                    <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
-                    <li class="nav-item px-3 gray_text">G<span>ET IN TOUCH</span></li>
-                </ul>
-            </div>
-        </nav>
-        <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_sm">
-            <a class="navbar-brand mx-5 my-5" href="#">
-                <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
-            </a>
-            <div class="container mt-3 nav_sm_adjust">
-                <ul class="navbar-nav">
-                    <li class="nav-item px-3">
-                        <div class="dropdown">
-                            <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
-                            <div class="dropdown-content">
-                                <a href="./process.html">OUR PROCESS</a>
-                                <a href="./html/swank_line.html">SWANK LINE</a>
-                                <a href="./modcon.html">MODCON LINE</a>
+                <div class="container mt-3 nav_md_adjust">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <div class="dropdown">
+                                <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
+                                <div class="dropdown-content">
+                                    <a href="./process.html">OUR PROCESS</a>
+                                    <a href="./html/swank_line.html">SWANK LINE</a>
+                                    <a href="./modcon.html">MODCON LINE</a>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
-                    <li class="nav-item px-3 pb-3">M<span class="nav_line_current">ARQUESS MAN</span></li>
-                    <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
-                    <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    <div id="story" class=" pt-4">
-        <div class="center container">
-            <h5 class="container pt-4 px-5 early_bird bigg">Terms</h5>
+                        </li>
+                        <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
+                        <li class="nav-item px-3 pb-3">M<span class="nav_line_current">ARQUESS MAN</span></li>
+                        <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
+                        <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_md_md">
+                <a class="navbar-brand mx-5 my-5" href="../index.html">
+                    <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
+                </a>
+                <div class="container-fluid mt-3 nav_md_adjust">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <div class="dropdown">
+                                <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
+                                <div class="dropdown-content">
+                                    <a href="./process.html">OUR PROCESS</a>
+                                    <a href="./swank_line.html">SWANK LINE</a>
+                                    <a href="./modcon.html">MODCON LINE</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
+                        <li class="nav-item px-3 pb-3">M<span class="nav_line_current">ARQUESS MAN</span></li>
+                        <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
+                        <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar nav_sm">
+                <div class="container">
+                <i class="fa-solid fa-bars float-start fa-3x point" onclick="togglenav()"></i>
+                <a class="navbar-brand mx-auto py-3 center" href="../index.html">
+                    <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
+                </a>
+                </div>
+            </nav>
         </div>
-    </div>
-    <p class="container mt-4 pt-4" style="text-align: justify; word-spacing: 5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolorem voluptate ipsa, debitis odio magnam natus inventore, commodi voluptas alias molestias. Similique dignissimos earum nisi laboriosam consequatur velit architecto maxime molestias odio? Vitae iste nisi inventore incidunt quam voluptatem nostrum nam tempore voluptatum est veritatis tempora, aliquam qui ullam debitis placeat, ex itaque nihil commodi amet eos laudantium dolorum architecto quisquam? Magnam fugiat pariatur quasi voluptas numquam laborum. Eaque odit, itaque similique molestias aperiam dolorem nobis alias minus obcaecati adipisci autem laborum magni quod vitae cupiditate aliquid facere iure molestiae et harum voluptatibus! Possimus impedit voluptatum iste dolorum quod quos obcaecati qui deserunt sit minima. Doloribus quae quisquam sed sint numquam. Aspernatur, totam deserunt, reprehenderit saepe eum tempora quasi ipsa beatae libero similique eaque voluptatibus doloribus. Perspiciatis facere omnis placeat, rem officiis laborum, facilis nobis rerum impedit quidem enim minus? Beatae voluptates facilis laudantium nostrum unde sed facere, harum labore incidunt esse aspernatur ipsum est totam accusantium, reprehenderit sunt eum minima, cupiditate iste laboriosam consequuntur eligendi autem mollitia. Aut ad quo nesciunt. Maxime ipsam consequatur, error laboriosam, quia incidunt aliquam libero repellat, adipisci molestias cum necessitatibus commodi quis magnam sapiente tempora saepe nisi qui aliquid ipsa aperiam? Quia, nulla odio!</p>
-    <div id="form" class="container pt-5 mt-5">
-        <div class="d-flex justify-content-evenly">
-            <div class="form-box container px-5 pt-5">
-                <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
-                <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
-                <div class="input-group mb-3 mt-4">
-                    <input type="text" class="form-control custom_txtf">
-                    <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+        <div id="story" class=" pt-4">
+            <div class="center container">
+                <h5 class="container pt-4 px-5 early_bird bigg">Terms</h5>
+            </div>
+        </div>
+        <div class="container justify">
+            <p class="mt-4 pt-4 justify" style=" word-spacing: 5px;">This website is owned and operated by Marquess London Ltd( “Marquess London”, “we”, “us” or “our”). These Terms and Conditions((“T&amp;Cs”) will apply to all users (the Customer, Client, browsers, vendors, merchants, and you). You acknowledge and agree to be bound by our T&amp;Cs, Privacy Policy and Terms of Use which govern our relationship with you regarding all products and services.</p>
+            <p>Please ensure to read these Terms carefully before accessing or using our Site. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any Services. If these Terms and Conditions are considered an offer, acceptance is expressly limited to these Terms and Conditions.</p>
+            <p>Marquess London reserves the right to add new features and tools to the site or any part of the T&amp;Cs at any time. Please visit this page frequently to check for any updates or changes to any part of the T&amp;Cs.</p>
+            <p>These are the Terms on which we sell all Goods to you. By ordering any of the Goods, you agree to be bound by these Terms and Conditions.</p>
+            <p>Goods</p>
+            <ol>
+                <li style="font-weight: normal;">The description of the Goods is as set out in our website, catalogues, brochures or other form of advertisement. Any description is for illustrative purposes only and there may be some discrepancies in colour or size.</li>
+                <li style="font-weight: normal;">In the case of custom made Goods, you must ensure that any information you provide is accurate.</li>
+            </ol>
+            <p>Basis of Sale</p>
+            <ol>
+                <li style="font-weight: normal;">The description of the Goods in our website, catalogues, brochures or other form of advertisement does not constitute a contractual offer to sell the Goods.</li>
+                <li style="font-weight: normal;">We reserve the right to refuse service to anyone for any reason at any time. Most times, we will provide you with reasons without delay.</li>
+                <li style="font-weight: normal;">A Contract is drawn for the goods ordered only upon the order acceptance email from Supplier to the Customer or, if earlier, the Supplier’s delivery of the Goods to the Customer.</li>
+                <li style="font-weight: normal;">Any quotation is valid for a maximum period of 10 days from its date, unless we expressly withdraw it at an earlier time.</li>
+                <li style="font-weight: normal;">No variation of Contract, whether about description of the Goods, price, or otherwise, can be made after it has been entered into unless both the Customer and the Supplier agree on the variation in writing.</li>
+                <li style="font-weight: normal;">We intend that these Terms and Conditions apply only to a Contract entered into by you as a Consumer where we, the Supplier and you, the Customer, enter the Contract at any of the Supplier’s business premises, and where the Contract is not a contract;
+                    <ul>
+                        <li style="font-weight: normal;">for which the Customer made an offer while the Supplier and the Customer were both physically present away from those premises; or</li>
+                        <li style="font-weight: normal;">made immediately after the Customer was personally and individually addressed in the Supplier’s and the Customer’s simultaneous physical presence away from those premises.</li>
+                        <p style="font-weight: normal;">If this is not the case, you must tell us, so that we can provide you with a different contract with terms which may be more appropriate and even better for you. It could, in some ways, allow cancellation rights under consumer protection law. Business premises means immovable retail premises where we carry on business on a permanent basis or, in the case of movable retail premises, on a usual basis.</p>    
+                    </ul>
+                </li>
+                <li style="font-weight: normal;">We are not responsible if information made available on this site is not accurate, complete or current. The material on this site is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete or more timely sources of information. Any reliance on the material on this site is at your own risk.This site may contain certain historical information. Historical information, necessarily, is not current and is provided for your reference only. We reserve the right to modify the contents of this site at any time and are not obligated to update any information on our site. You agree that it is your responsibility to monitor changes to our site.</li>
+            </ol>
+            <p>Price &amp; Payment</p>
+            <ol>
+                <li style="font-weight: normal;">Prices are shown on the site and billed iPounds Sterling (GBP)n Pound Sterling(PBG) for all order shipping to any country.</li>
+                <li style="font-weight: normal;">Marquess London securely accepts VISA, Mastercard, American Express as our payment method.</li>
+                <li style="font-weight: normal;">The price of the goods, additional shipping, or other fees, including the total cost of the goods, is displayed on the site when we accept your order. Any contrary pricing may later be agreed upon in writing.</li>
+                <li style="font-weight: normal;">Prices and charges include VAT at the rate applicable at the time of the Order.</li>
+                <li style="font-weight: normal;">Payment for Goods should be within 3days of invoice. You must pay by submitting your credit or debit card details with your order or by Bank transfer as provided in the invoice. After which we can take payment immediately or otherwise before completion of the Goods.</li>
+                <li style="font-weight: normal;">Payment validated order! All custom made garments require an upfront payment before crafting processes begins. For the MOD CON, full payment is required while a minimum of 80% is required for new SWANK clients and 60% for existing. Customers should not act otherwise unless both the Customer and the Supplier agree on another variation in writing.</li>
+                <li style="font-weight: normal;">When placing an order, a minimum percentage is allowed to begin the order process but this is confirmed only at fitting.Therefore if at any point you choose to withdraw your order, you will not be entitled to a refund.</li>
+            </ol>
+            <p>Delivery, Pick Up &amp; Handling</p>
+            <ol>
+                <li style="font-weight: normal;">To ensure you receive your order quickly, we alert you prior to order completion on official pickup dates and make secondary arrangements if chosen dates do not suffice.</li>
+                <li style="font-weight: normal;">Garments won&#39;t be released for final pickup until all payments have been made. Marquess London will not be responsible for any form of delivery delay for garments that have not been fully paid for. Your order will be withdrawn if delay persists and there will be no form of refund whatsoever.</li>
+            </ol>
+            <p>Risk &amp; Title</p>
+            <ol>
+                <li style="font-weight: normal;">Risk of damage to, or loss of, the Goods will pass to you when the Goods are delivered to you.</li>
+                <li style="font-weight: normal;">You do not own the Goods until we have received payment in full. If full payment is overdue or a step occurs towards your bankruptcy, we can choose, by notice, to cancel any arranged pickup and/or delivery and end any right to use the Goods still owned by you, in which case you must return them or allow us to collect them.</li>
+                <li style="font-weight: normal;">You can withdraw the Order by telling us before the Contract is made, if you simply wish to change your mind and without giving us a reason, and without incurring any liability.</li>
+            </ol>
+            <p>Conformity &amp; Guarantee</p>
+            <ol>
+                <li style="font-weight: normal;">We have a legal duty to supply the Goods in conformity with the Contract, and will not have conformed if it does not meet the following obligation.</li>
+            </ol>
+            <p>Circumstances beyond the control of either party</p>
+            <p>In the event of any failure by a party because of something beyond its reasonable control:</p>
+            <ul>
+                <li style="font-weight: normal;">the party will advise the other party as soon as reasonably practicable; and</li>
+                <li style="font-weight: normal;">the party’s obligations will be suspended so far as is reasonable, provided that that party will act reasonably, and the party will not be liable for any failure which it could not considerably avoid, but this will not affect the Customer’s above rights relating to delivery.</li>
+            </ul>
+            <p>Excluding liability</p>
+            <ul>
+                <li style="font-weight: normal;">The Supplier does not exclude liability for:</li>
+                <ol type="I">
+                    <li style="font-weight: normal;">any fraudulent act or omission; or</li>
+                    <li style="font-weight: normal;">for death or personal injury caused by negligence or breach of the Supplier’s other legal obligations. Subject to this, the Supplier is not liable for</li>
+                </ol>
+                <ol type="I">
+                    <li style="font-weight: normal;">loss which was not reasonably foreseeable to both parties at the time when the Contract was made, or</li>
+                    <li style="font-weight: normal;">loss (eg loss of profit) to the Customer’s business, trade, craft or profession which would not be suffered by a Consumer because the Supplier believes the Customer is not buying the Goods wholly or mainly for its business, trade, craft or profession).</li>
+                </ol>
+            </ul>
+            <p>Governing Law, Jurisdiction &amp; Complaints</p>
+            <ul>
+                <li style="font-weight: normal;">We try to avoid any dispute, so we deal with complaints as follows: If a dispute occurs customers should contact us directly. We will aim to respond with an appropriate solution within 5 days.</li>
+            </ul>
+            <p>Contact Information</p>
+            <ul>
+                <li style="font-weight: normal;">Questions about the Terms and Conditions should be sent to us at: info@marquesslondon.com.</li>
+            </ul>
+            <p>Last Modified: June 2023.</p>
+        </div>
+        <div id="form" class="container pt-5 mt-5 show_bg">
+            <div class="d-flex justify-content-between">
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
                 </div>
             </div>
-            <div class="form-box container px-5 pt-5">
-                <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
-                <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
-                <div class="input-group mb-3 mt-4">
-                    <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+        </div>
+        <div id="form" class="container pt-5 mt-5 show_md">
+            <div class="d-flex justify-content-between">
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div style="width: 20px;"></div>
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>830*332
-    
+        <div id="form" class="container pt-5 mt-5 show_md_md">
+            <div class="d-flex justify-content-between">
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div style="width: 20px;"></div>
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form" class="container-fluid pt-5 mt-5 show_sm">
+            <div class="d-flex justify-content-between">
+                <div class="form-box_sm container px-5 pt-5">
+                    <h3 class="bold pb-5 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div style="width: 20px;"></div>
+                <div class="form-box_sm container px-5 pt-5">
+                    <h3 class="bold pb-5 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form" class="container-fluid pt-5 mt-5 show_xs">
+            <div>
+                <div class="form-box_xs container px-5 pt-5">
+                    <h3 class="bold pb-5 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div class="form-box_xs container px-5 pt-5 mt-5">
+                    <h3 class="bold pb-5 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container center mt-5 pt-5">
+            <i class="fa-brands fa-instagram fa-bounce px-2"></i>
+            <i class="fa-brands fa-square-facebook fa-bounce px-2"></i>
+            <i class="fa-brands fa-square-twitter fa-bounce px-2"></i>
+            <i class="fa-brands fa-linkedin fa-bounce px-2"></i>
+        </div>
+        <div class="container center mt-3 pt-3">
+            <span><a href="./clauses.html" class="text_link2 px-4">CLAUSES</a></span>
+            <span><a href="./faq.html" class="text_link2 px-4">FAQ</a></span>
+        </div>
+        <div class="container center mt-3 pt-1">
+            <span>Copyright © 2023. Marquess London. All Rights Reserved</span>
+        </div>
+        830*332
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
+    <script>
+        function togglenav() {
+      var myNav = document.getElementById('nav_hidden');
+      var myNav2 = document.getElementById('nav_sm_body');
+      var displaySetting = myNav.style.display;
+      var displaySetting2 = myNav2.style.display;
+      if (displaySetting == 'block') {
+        myNav.style.display = 'none';
+      }
+      else {
+        myNav.style.display = 'block';
+      }
+
+      if (displaySetting2 == 'none') {
+        myNav2.style.display = 'block';
+      }
+      else {
+        myNav2.style.display = 'none';
+      }
+
+    }
+
+    function nav_show() {
+      var myNav = document.getElementById('nav_hidden');
+      var myNav2 = document.getElementById('nav_sm_body');
+      var displaySetting = myNav.style.display;
+      var displaySetting2 = myNav2.style.display;
+      if (displaySetting == 'block') {
+        myNav.style.display = 'none';
+      }
+      else {
+        myNav.style.display = 'block';
+      }
+
+      if (displaySetting2 == 'none') {
+        myNav2.style.display = 'block';
+      }
+      else {
+        myNav2.style.display = 'none';
+      }
+
+    }
+    
+    function tailoring_nav() {
+      var myNav = document.getElementById('tailoring_nav_show');
+      var displaySetting = myNav.style.display;
+      if (displaySetting == 'block') {
+        myNav.style.display = 'none';
+      }
+      else {
+        myNav.style.display = 'block';
+      }
+
+    }
+    </script>
 </body>
 </html>

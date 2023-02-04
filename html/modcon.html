@@ -10,160 +10,302 @@
     <title>Marquess London | Modcon Line</title>
 </head>
 <body>
-    <div class="slider">
-        <marquee behavior="" direction=""><p class="slider white_text px-3 pt-2 mb-0"> <span class="boldd">Just In:</span> We’re closed for holidays from December 20th 2021 to Jan 9th 2022</p></marquee>
+    <div class="nav_hidden  mx-auto" id="nav_hidden">
+        <i class="fa-solid fa-xmark fa-3x mt-5 point mx-3" onclick="nav_show()"></i>
+        <div class="center">
+            <ul class="nav_sm_link">
+                <li class="point" onclick="tailoring_nav()">TAILORING</li>
+                    <ul class="nav_sm_link2" id="tailoring_nav_show">
+                        <li class="point"><a href="./process.html" class="clean_list2">OUR PROCESS</a></li>
+                        <li class="point"><a href="./swank_line.html" class="clean_list2">SWANK LINE</a></li>
+                        <li class="point"><a href="./modcon.html"class="clean_list2">MODCON LINE</a></li>
+                    </ul>
+                <li class="point">LIFESTYLE</li>
+                <li class="point"><a href="./marquess_man.html" class="clean_list2">MARQUESS MAN</a></li>
+                <li class="point"><a href="./story.html" class="clean_list2">OUR STORY</a></li>
+                <li class="point">GET IN TOUCH</li>
+            </ul>
+        </div>
     </div>
-    <div>
-        <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-4 show_bg">
-            <div class="container">
-                <ul class="navbar-nav">
-                    <li class="nav-item px-3">
-                        <div class="dropdown">
-                            <a class="dropbtn">T<span class="nav_line bold">AILORING</span></a>
-                            <div class="dropdown-content">
-                                <a href="./process.html">OUR PROCESS</a>
-                                <a href="./swank_line.html">SWANK LINE</a>
-                                <a href="./modcon.html">MODCON LINE</a>
+    <div id="nav_sm_body">
+        <div class="slider">
+            <marquee behavior="" direction=""><p class="slider white_text px-3 pt-2 mb-0"> <span class="boldd">Just In:</span> We’re closed for holidays from December 20th 2021 to Jan 9th 2022</p></marquee>
+        </div>
+        <div>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-4 show_bg">
+                <div class="container">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <div class="dropdown">
+                                <a class="dropbtn">T<span class="nav_line bold">AILORING</span></a>
+                                <div class="dropdown-content">
+                                    <a href="./process.html">OUR PROCESS</a>
+                                    <a href="./swank_line.html">SWANK LINE</a>
+                                    <a href="./modcon.html">MODCON LINE</a>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="nav-item px-3">L<span class="nav_line bold">IFESTYLE</span></li>
-                    <li class="nav-item px-3"><a href="./marquess_man.html" class="clean_list">M<span class="nav_line">ARQUESS MAN</span></a></li>
-                </ul>
-                <a class="navbar-brand" href="/index.html">
+                        </li>
+                        <li class="nav-item px-3">L<span class="nav_line bold">IFESTYLE</span></li>
+                        <li class="nav-item px-3"><a href="./marquess_man.html" class="clean_list">M<span class="nav_line">ARQUESS MAN</span></a></li>
+                    </ul>
+                    <a class="navbar-brand" href="/index.html">
+                        <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
+                        <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
+                        <li class="nav-item px-3 gray_text">G<span>ET IN TOUCH</span></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_md">
+                <a class="navbar-brand mx-5 my-5" href="#">
                     <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
                 </a>
-                <ul class="navbar-nav">
-                     <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
-                    <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
-                    <li class="nav-item px-3 gray_text">G<span>ET IN TOUCH</span></li>
-                </ul>
-            </div>
-        </nav>
-        <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_sm">
-            <a class="navbar-brand mx-5 my-5" href="#">
-                <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
-            </a>
-            <div class="container mt-3 nav_sm_adjust">
-                <ul class="navbar-nav">
-                    <li class="nav-item px-3">
-                        <div class="dropdown">
-                            <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
-                            <div class="dropdown-content">
-                                <a href="./process.html">OUR PROCESS</a>
-                                <a href="./html/swank_line.html">SWANK LINE</a>
-                                <a href="./modcon.html">MODCON LINE</a>
+                <div class="container mt-3 nav_md_adjust">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <div class="dropdown">
+                                <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
+                                <div class="dropdown-content">
+                                    <a href="./process.html">OUR PROCESS</a>
+                                    <a href="./html/swank_line.html">SWANK LINE</a>
+                                    <a href="./modcon.html">MODCON LINE</a>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
-                    <li class="nav-item px-3 pb-3">M<span class="nav_line_current">ARQUESS MAN</span></li>
-                     <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
-                    <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    <div id="showcase_ml" class="pt-3">
-        <div class="sl_showcase_txt_box float-end container">
-            <h5 class="container white_text pt-3 float-end early_bird center medium">Modcon Line</h5>
-            <p class="white_text pt-3">Our ModCon line is our entry level line, ideal for Groomsmen, and standard wardrobe staples. With its high quality yet attainable price point, the ModCon line is a modest start to your Marquess experience.</p>
+                        </li>
+                        <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
+                        <li class="nav-item px-3 pb-3">M<span class="nav_line_current">ARQUESS MAN</span></li>
+                        <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
+                        <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_md_md">
+                <a class="navbar-brand mx-5 my-5" href="../index.html">
+                    <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
+                </a>
+                <div class="container-fluid mt-3 nav_md_adjust">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <div class="dropdown">
+                                <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
+                                <div class="dropdown-content">
+                                    <a href="./process.html">OUR PROCESS</a>
+                                    <a href="./swank_line.html">SWANK LINE</a>
+                                    <a href="./modcon.html">MODCON LINE</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
+                        <li class="nav-item px-3 pb-3">M<span class="nav_line_current">ARQUESS MAN</span></li>
+                        <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
+                        <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar nav_sm">
+                <div class="container">
+                <i class="fa-solid fa-bars float-start fa-3x point" onclick="togglenav()"></i>
+                <a class="navbar-brand mx-auto py-3 center" href="../index.html">
+                    <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
+                </a>
+                </div>
+            </nav>
         </div>
-    </div>
-    <div id="steps" class="container-fluid pt-5">
-        <div id="catalogue2" class="container steps_parent pt-5">
-            <div class="">
-                <div class="construction steps_box container">
-                    <span class="bold biggest float-startt H_bold">1</span>
-                    <h3 class="white_text bold center steps_text">CONSTRUCTION</h3>
-                </div>
-                <div class="text_box_steps_1 container">
-                    <p class="small text_box_steps_child pt-4">100% Machine made, our ModCon line offers the fundamental standards at a high quality, making your custom garment experience straightforward and enjoyable yet superior. ModCon jackets are made with high quality polyester blend canvas, ensuring durability and the ideal drape.</p>
-                </div>
-            </div>
-            <div class="">
-                <div class="fabric steps_box container">
-                    <span class="bold biggest float-startt H_bold">2</span>
-                    <h3 class="white_text bold center steps_text">FABRICS</h3>
-                </div>
-                <div class="text_box_steps_1 container">
-                    <p class="small text_box_steps_child pt-4">With Fabrics sourced by our master tailors, ModCon offers the essential range of fabrics, patterns, and colours, ensuring quality that can meet the Marquess Man’s standard. Similar standard interior trimmings are used throughout the construction of our MODCON pieces, ensuring consistency in your garments. Choose from a limited range, including 100% natural wool, linen and cotton</p>
-                </div>
-            </div>
-            <div class="">
-                <div class="fitting steps_box container">
-                    <span class="bold biggest float-startt H_bold">3</span>
-                    <h3 class="white_text bold center steps_text">FITTINGS</h3>
-                </div>
-                <div class="text_box_steps_1 container">
-                    <p class="small text_box_steps_child pt-5">With the ModCon line, you experience the Marquess consultation process. We will take your body measurements, and with the unique Marquess fitting methodology, we will ensure the fit is to your taste and meets the Marquess standard</p>
-                </div>
+        <div id="showcase_ml" class="pt-3">
+            <div class="sl_showcase_txt_box float-end container">
+                <h5 class="container white_text pt-3 float-end early_bird center medium">Modcon Line</h5>
+                <p class="white_text pt-3">Our ModCon line is our entry level line, ideal for Groomsmen, and standard wardrobe staples. With its high quality yet attainable price point, the ModCon line is a modest start to your Marquess experience.</p>
             </div>
         </div>
-    </div>
-    <div id="icons" class="mt-5 pb-5">
-        <div class="container">
-            <h3 class="bold big pb-5 pt-5">Click on the icons below to learn about how we craft our look.</h3>
-            <div class="d-flex justify-content-evenly">
-                <div class="icons-box container px-5 pt-5 mt-5">
-                    <div id="shoulder_pad">
-                    <h3 class="bold pb-3 form-text-header">Shoulder Pad</h3>
-                    <p class="form-text pt-4">Our jackets are constructed with light padding, providing the right amount of structure to the jacket without an obvious view.v</p>
+        <div id="steps" class="container-fluid pt-5">
+            <div id="catalogue2" class="container steps_parent pt-5">
+                <div class="">
+                    <div class="construction steps_box container">
+                        <span class="bold biggest float-startt H_bold">1</span>
+                        <h3 class="white_text bold center steps_text">CONSTRUCTION</h3>
+                    </div>
+                    <div class="text_box_steps_1 container">
+                        <p class="small text_box_steps_child pt-4">100% Machine made, our ModCon line offers the fundamental standards at a high quality, making your custom garment experience straightforward and enjoyable yet superior. ModCon jackets are made with high quality polyester blend canvas, ensuring durability and the ideal drape.</p>
                     </div>
                 </div>
                 <div class="">
-                    <img src="../imgs/modcon/MLIllustration.png" alt="illustration" usemap="#illustration">
-                    <button class="icon-btn-shoulder" onclick="toggleShoulder()" id="show_shoulder">
-                        <i class="fa-regular fa-square"></i>
-                    </button>
-                    <button class="icon-btn-sleeve" onclick="toggleSleeve()" id="show_sleeve">
-                        <i class="fa-regular fa-square"></i>
-                    </button>
-                </div>
-                <div class="icons-box container px-5 pt-5 mt-5">
-                    <div id="sleeve_pad">
-                        <h3 class="bold pb-3 form-text-header">Sleeves</h3>
-                        <p class="form-text pt-4">Our high cut arm holes shapes the sleeve silhouette into a modern cut allowing for an exquisite tapered figure.</p>
+                    <div class="fabric steps_box container">
+                        <span class="bold biggest float-startt H_bold">2</span>
+                        <h3 class="white_text bold center steps_text">FABRICS</h3>
                     </div>
-                </div> 
-            </div>
-        </div>
-    </div>
-    <div id="lookbook_1" class="mt-5">
-        <h3 class="lookbook_txt bold pt-5">LOOKBOOK</h3>
-    </div>
-    <div class="row container mx-auto lkbk">
-        <img src="../imgs/modcon/ml1.webp"alt="sl1" class="col-md-5 pt-4">
-        <img src="../imgs/modcon/ml2.webp" alt="sl1" class="col-md-5 pt-4">
-        <img src="../imgs/modcon/ml3.webp" alt="sl1" class="col-md-5 pt-4">
-        <img src="../imgs/modcon/ml4.webp" alt="sl1" class="col-md-5 pt-4">
-        <img src="../imgs/modcon/ml5.webp" alt="sl1" class="col-md-5 pt-4">
-        <img src="../imgs/modcon/ml6.webp" alt="sl1" class="col-md-5 pt-4">
-        <img src="../imgs/modcon/ml7.webp" alt="sl1" class="col-md-5 pt-4">
-        <img src="../imgs/modcon/ml8.webp" alt="sl1" class="col-md-5 pt-4">
-        <img src="../imgs/modcon/ml9.webp" alt="sl1" class="col-md-5 pt-4">
-        <img src="../imgs/modcon/ml10.webp" alt="sl1" class="col-md-5 pt-4">
-    </div>
-    <div id="form" class="container pt-5 mt-5">
-        <div class="d-flex justify-content-evenly">
-            <div class="form-box container px-5 pt-5">
-                <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
-                <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
-                <div class="input-group mb-3 mt-4">
-                    <input type="text" class="form-control custom_txtf">
-                    <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    <div class="text_box_steps_1 container">
+                        <p class="small text_box_steps_child pt-4">With Fabrics sourced by our master tailors, ModCon offers the essential range of fabrics, patterns, and colours, ensuring quality that can meet the Marquess Man’s standard. Similar standard interior trimmings are used throughout the construction of our MODCON pieces, ensuring consistency in your garments. Choose from a limited range, including 100% natural wool, linen and cotton</p>
+                    </div>
                 </div>
-            </div>
-            <div class="form-box container px-5 pt-5">
-                <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
-                <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
-                <div class="input-group mb-3 mt-4">
-                    <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                <div class="">
+                    <div class="fitting steps_box container">
+                        <span class="bold biggest float-startt H_bold">3</span>
+                        <h3 class="white_text bold center steps_text">FITTINGS</h3>
+                    </div>
+                    <div class="text_box_steps_1 container">
+                        <p class="small text_box_steps_child pt-5">With the ModCon line, you experience the Marquess consultation process. We will take your body measurements, and with the unique Marquess fitting methodology, we will ensure the fit is to your taste and meets the Marquess standard</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>830*332
-    
+        <div id="icons" class="mt-5 pb-5">
+            <div class="container">
+                <h3 class="bold big pb-5 pt-5">Click on the icons below to learn about how we craft our look.</h3>
+                <div class="d-flex justify-content-evenly">
+                    <div class="icons-box container px-5 pt-5 mt-5">
+                        <div id="shoulder_pad">
+                        <h3 class="bold pb-3 form-text-header">Shoulder Pad</h3>
+                        <p class="form-text pt-4">Our jackets are constructed with light padding, providing the right amount of structure to the jacket without an obvious view.v</p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <img src="../imgs/modcon/MLIllustration.png" alt="illustration" usemap="#illustration">
+                        <button class="icon-btn-shoulder" onclick="toggleShoulder()" id="show_shoulder">
+                            <i class="fa-regular fa-square"></i>
+                        </button>
+                        <button class="icon-btn-sleeve" onclick="toggleSleeve()" id="show_sleeve">
+                            <i class="fa-regular fa-square"></i>
+                        </button>
+                    </div>
+                    <div class="icons-box container px-5 pt-5 mt-5">
+                        <div id="sleeve_pad">
+                            <h3 class="bold pb-3 form-text-header">Sleeves</h3>
+                            <p class="form-text pt-4">Our high cut arm holes shapes the sleeve silhouette into a modern cut allowing for an exquisite tapered figure.</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div id="lookbook_1" class="mt-5">
+            <h3 class="lookbook_txt bold pt-5">LOOKBOOK</h3>
+        </div>
+        <div class="row container mx-auto lkbk">
+            <img src="../imgs/modcon/ml1.webp"alt="sl1" class="col-md-5 pt-4">
+            <img src="../imgs/modcon/ml2.webp" alt="sl1" class="col-md-5 pt-4">
+            <img src="../imgs/modcon/ml3.webp" alt="sl1" class="col-md-5 pt-4">
+            <img src="../imgs/modcon/ml4.webp" alt="sl1" class="col-md-5 pt-4">
+            <img src="../imgs/modcon/ml5.webp" alt="sl1" class="col-md-5 pt-4">
+            <img src="../imgs/modcon/ml6.webp" alt="sl1" class="col-md-5 pt-4">
+            <img src="../imgs/modcon/ml7.webp" alt="sl1" class="col-md-5 pt-4">
+            <img src="../imgs/modcon/ml8.webp" alt="sl1" class="col-md-5 pt-4">
+            <img src="../imgs/modcon/ml9.webp" alt="sl1" class="col-md-5 pt-4">
+            <img src="../imgs/modcon/ml10.webp" alt="sl1" class="col-md-5 pt-4">
+        </div>
+        <div id="form" class="container pt-5 mt-5 show_bg">
+            <div class="d-flex justify-content-between">
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form" class="container pt-5 mt-5 show_md">
+            <div class="d-flex justify-content-between">
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div style="width: 20px;"></div>
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form" class="container pt-5 mt-5 show_md_md">
+            <div class="d-flex justify-content-between">
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div style="width: 20px;"></div>
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form" class="container-fluid pt-5 mt-5 show_sm">
+            <div class="d-flex justify-content-between">
+                <div class="form-box_sm container px-5 pt-5">
+                    <h3 class="bold pb-5 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div style="width: 20px;"></div>
+                <div class="form-box_sm container px-5 pt-5">
+                    <h3 class="bold pb-5 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form" class="container-fluid pt-5 mt-5 show_xs">
+            <div>
+                <div class="form-box_xs container px-5 pt-5">
+                    <h3 class="bold pb-5 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div class="form-box_xs container px-5 pt-5 mt-5">
+                    <h3 class="bold pb-5 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container center mt-5 pt-5">
+            <i class="fa-brands fa-instagram fa-bounce px-2"></i>
+            <i class="fa-brands fa-square-facebook fa-bounce px-2"></i>
+            <i class="fa-brands fa-square-twitter fa-bounce px-2"></i>
+            <i class="fa-brands fa-linkedin fa-bounce px-2"></i>
+        </div>
+        <div class="container center mt-3 pt-3">
+            <span><a href="./clauses.html" class="text_link2 px-4">CLAUSES</a></span>
+            <span><a href="./faq.html" class="text_link2 px-4">FAQ</a></span>
+        </div>
+        <div class="container center mt-3 pt-1">
+            <span>Copyright © 2023. Marquess London. All Rights Reserved</span>
+        </div>
+        830*332
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
 
@@ -241,6 +383,59 @@
     //   clockButton.innerHTML = 'Hide clock';
     }
   }
+  function togglenav() {
+      var myNav = document.getElementById('nav_hidden');
+      var myNav2 = document.getElementById('nav_sm_body');
+      var displaySetting = myNav.style.display;
+      var displaySetting2 = myNav2.style.display;
+      if (displaySetting == 'block') {
+        myNav.style.display = 'none';
+      }
+      else {
+        myNav.style.display = 'block';
+      }
+
+      if (displaySetting2 == 'none') {
+        myNav2.style.display = 'block';
+      }
+      else {
+        myNav2.style.display = 'none';
+      }
+
+    }
+
+    function nav_show() {
+      var myNav = document.getElementById('nav_hidden');
+      var myNav2 = document.getElementById('nav_sm_body');
+      var displaySetting = myNav.style.display;
+      var displaySetting2 = myNav2.style.display;
+      if (displaySetting == 'block') {
+        myNav.style.display = 'none';
+      }
+      else {
+        myNav.style.display = 'block';
+      }
+
+      if (displaySetting2 == 'none') {
+        myNav2.style.display = 'block';
+      }
+      else {
+        myNav2.style.display = 'none';
+      }
+
+    }
+    
+    function tailoring_nav() {
+      var myNav = document.getElementById('tailoring_nav_show');
+      var displaySetting = myNav.style.display;
+      if (displaySetting == 'block') {
+        myNav.style.display = 'none';
+      }
+      else {
+        myNav.style.display = 'block';
+      }
+
+    }
     </script>
     
 </body>

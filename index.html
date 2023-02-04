@@ -10,144 +10,354 @@
     <title>Marquess London | Marquess Man</title>
 </head>
 <body>
-    <div class="slider">
-        <marquee behavior="" direction=""><p class="slider white_text px-3 pt-2 mb-0"> <span class="bold">Just In:</span> We’re closed for holidays from December 20th 2021 to Jan 9th 2022</p></marquee>
+    <div class="nav_hidden  mx-auto" id="nav_hidden">
+        <i class="fa-solid fa-xmark fa-3x mt-5 point mx-3" onclick="nav_show()"></i>
+        <div class="center">
+            <ul class="nav_sm_link">
+                <li class="point" onclick="tailoring_nav()">TAILORING</li>
+                    <ul class="nav_sm_link2" id="tailoring_nav_show">
+                        <li class="point"><a href="./html/process.html" class="clean_list2">OUR PROCESS</a></li>
+                        <li class="point"><a href="./html/swank_line.html" class="clean_list2">SWANK LINE</a></li>
+                        <li class="point"><a href="./html/modcon.html"class="clean_list2">MODCON LINE</a></li>
+                    </ul>
+                <li class="point">LIFESTYLE</li>
+                <li class="point"><a href="./html/marquess_man.html" class="clean_list2">MARQUESS MAN</a></li>
+                <li class="point"><a href="./html/story.html" class="clean_list2">OUR STORY</a></li>
+                <li class="point">GET IN TOUCH</li>
+            </ul>
+        </div>
     </div>
-    <div>
-        <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_bg">
-            <div class="container">
-                <ul class="navbar-nav">
-                    <li class="nav-item px-3">
-                        <div class="dropdown">
-                            <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
-                            <div class="dropdown-content">
-                                <a href="./html/process.html">OUR PROCESS</a>
-                                <a href="/html/swank_line.html">SWANK LINE</a>
-                                <a href="./html/modcon.html">MODCON LINE</a>
+    <div id="nav_sm_body">
+        <div class="slider">
+            <marquee behavior="" direction=""><p class="slider white_text px-3 pt-2 mb-0"> <span class="bold">Just In:</span> We’re closed for holidays from December 20th 2021 to Jan 9th 2022</p></marquee>
+        </div>
+        <div>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_bg">
+                <div class="container">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <div class="dropdown">
+                                <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
+                                <div class="dropdown-content">
+                                    <a href="./html/process.html">OUR PROCESS</a>
+                                    <a href="/html/swank_line.html">SWANK LINE</a>
+                                    <a href="./html/modcon.html">MODCON LINE</a>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
-                    <li class="nav-item px-3"><a href="./html/marquess_man.html" class="clean_list">M<span class="nav_line">ARQUESS MAN</span></a></li>
-                </ul>
-                <a class="navbar-brand mx-5" href="#">
+                        </li>
+                        <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
+                        <li class="nav-item px-3"><a href="./html/marquess_man.html" class="clean_list">M<span class="nav_line">ARQUESS MAN</span></a></li>
+                    </ul>
+                    <a class="navbar-brand mx-5" href="#">
+                        <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3"><a href="./html/story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
+                        <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
+                        <li class="nav-item px-3 gray_text">G<span>ET IN TOUCH</span></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_md">
+                <a class="navbar-brand mx-5 my-5" href="#">
                     <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
                 </a>
-                <ul class="navbar-nav">
-                     <li class="nav-item px-3"><a href="./html/story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
-                    <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
-                    <li class="nav-item px-3 gray_text">G<span>ET IN TOUCH</span></li>
-                </ul>
-            </div>
-        </nav>
-        <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_sm">
-            <a class="navbar-brand mx-5 my-5" href="#">
-                <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
-            </a>
-            <div class="container mt-3 nav_sm_adjust">
-                <ul class="navbar-nav">
-                    <li class="nav-item px-3">
-                        <div class="dropdown">
-                            <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
-                            <div class="dropdown-content">
-                                <a href="./html/process.html">OUR PROCESS</a>
-                                <a href="./html/swank_line.html">SWANK LINE</a>
-                                <a href="./html/modcon.html">MODCON LINE</a>
+                <div class="container mt-3 nav_md_adjust">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <div class="dropdown">
+                                <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
+                                <div class="dropdown-content">
+                                    <a href="./html/process.html">OUR PROCESS</a>
+                                    <a href="./html/swank_line.html">SWANK LINE</a>
+                                    <a href="./html/modcon.html">MODCON LINE</a>
+                                </div>
                             </div>
+                        </li>
+                        <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
+                        <li class="nav-item px-3">M<span class="nav_line">ARQUESS MAN</span></li>
+                        <li class="nav-item px-3"><a href="./html/story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
+                        <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar show_sm">
+                <div class="container">
+                <i class="fa-solid fa-bars float-start fa-3x point" onclick="togglenav()"></i>
+                <a class="navbar-brand mx-auto py-3 center" href="../index.html">
+                    <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
+                </a>
+                </div>
+            </nav>
+        </div>
+        <div id="showcase_hp" class="">
+            <div class="slide_box">
+                <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active hh">
+                        <img src="./imgs/landing_page/041A3105_BN.jpg" class="d-block w-100 img-resize5" alt="...">
+                        <div class="carousel_text sl_showcase_txt_box float-end" style="color: red;">
+                            <h3 class="bold pb-3 ">JOIN THE COMMUNITY</h3>
+                            <p class="">Stay connected with the Marquess London story.</p>
                         </div>
-                    </li>
-                    <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
-                    <li class="nav-item px-3">M<span class="nav_line">ARQUESS MAN</span></li>
-                     <li class="nav-item px-3"><a href="./html/story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
-                    <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    <div id="showcase_sl" class="">
-        <div class="slide_box">
-            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active hh">
-                    <img src="./imgs/landing_page/041A3105_BN.jpg" class="d-block w-100 img-resize5" alt="...">
-                  </div>
-                  <div class="carousel-item hh">
-                    <img src="./imgs/landing_page/2.jpg" class="d-block w-100 img-resize5" alt="...">
-                  </div>
-                  <div class="carousel-item hh">
-                    <img src="./imgs/debonair/d1.jpg" class="d-block w-100 img-resize5" alt="...">
-                  </div>
+                    </div>
+                    <div class="carousel-item hh">
+                        <img src="./imgs/landing_page/2.jpg" class="d-block w-100 img-resize5" alt="...">
+                    </div>
+                    <div class="carousel-item hh">
+                        <img src="./imgs/debonair/d1.jpg" class="d-block w-100 img-resize5" alt="...">
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="d-flex justify-content-evenly container mx-auto mt-5 hp_box">
-        <div class=" pt-5 mt-5 center col-md-4">
-            <h3 class="early_birdd mediumm">Marquess Man</h3>
-            <p style="text-align: justify;" class="pt-3">The Marquess Man is aware, living an honourable life with the sole aim of achieving his purpose while being a true expression of himself. He starts and ends his day in his impeccably crafted made to measure garment, which breathes his essence. He is in his highest state of being because he knows who he is and how to look the part. He proudly speaks quality, integrity, and style in his distinct brand of excellence yet displays freedom unrivalled. We enable The Marquess Man, to feel his most confident and become his best self to better face today’s world – let us welcome you to The Marquess Family.
-            </p>
-            <button class="btn custom_btn_hp custom_txtf center mt-5" type="button" id="button-addon2">DISCOVER MORE</button>
-        </div>
-        <div class="d-flex flex-column pt-4 col-md-6">
-            <div class="d-flex justify-content-evenly pt-4">
-                <div class=" hp_cat_current bold col-md-6 ">
-                    <a href="./html/marquess_man.html"><div class=" hp_cat_img hp_cat_img1"></div></a>
-                    <p class="hp-title-link px-3 mb-5 boldd">CORPORATE MAN</p>
+        <div class="d-flex justify-content-evenly container mx-auto mt-5 hp_box">
+            <div class=" pt-5 mt-5 center col-md-4">
+                <h3 class="early_birdd mediumm">Marquess Man</h3>
+                <p style="text-align: justify;" class="pt-3">The Marquess Man is aware, living an honourable life with the sole aim of achieving his purpose while being a true expression of himself. He starts and ends his day in his impeccably crafted made to measure garment, which breathes his essence. He is in his highest state of being because he knows who he is and how to look the part. He proudly speaks quality, integrity, and style in his distinct brand of excellence yet displays freedom unrivalled. We enable The Marquess Man, to feel his most confident and become his best self to better face today’s world – let us welcome you to The Marquess Family.
+                </p>
+                <button class="btn custom_btn_hp custom_txtf center mt-5" type="button" id="button-addon2">DISCOVER MORE</button>
+            </div>
+            <div class="d-flex flex-column pt-4 col-md-6">
+                <div class="d-flex justify-content-evenly pt-4">
+                    <div class=" hp_cat_current bold col-md-6 ">
+                        <a href="./html/marquess_man.html"><div class=" hp_cat_img hp_cat_img1"></div></a>
+                        <p class="hp-title-link px-3 mb-5 boldd">CORPORATE MAN</p>
+                    </div>
+                    <div class=" hp_cat_current bold ">
+                        <a href="./modcon.html"><div class=" hp_cat_img hp_cat_img2"></div></a>
+                        <p class="hp-title-link px-3 mb-5 boldd">THE WEEKENDER</p>
+                    </div>
                 </div>
-                <div class=" hp_cat_current bold ">
-                    <a href="./modcon.html"><div class=" hp_cat_img hp_cat_img2"></div></a>
-                    <p class="hp-title-link px-3 mb-5 boldd">THE WEEKENDER</p>
+                <div class="d-flex justify-content-evenly pt-4">
+                    <div class=" hp_cat_current bold col-md-6 ">
+                        <a href="./swank_line.html"><div class=" hp_cat_img hp_cat_img3"></div></a>
+                        <p class="hp-title-link px-3 mb-5 boldd">MR MODISH</p>
+                    </div>
+                    <div class=" hp_cat_current bold ">
+                        <a href="./modcon.html"><div class=" hp_cat_img hp_cat_img4"></div></a>
+                        <p class="hp-title-link px-3 mb-5 boldd">DEBONAIR</p>
+                    </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-evenly pt-4">
-                <div class=" hp_cat_current bold col-md-6 ">
-                    <a href="./swank_line.html"><div class=" hp_cat_img hp_cat_img3"></div></a>
-                    <p class="hp-title-link px-3 mb-5 boldd">MR MODISH</p>
-                </div>
-                <div class=" hp_cat_current bold ">
-                    <a href="./modcon.html"><div class=" hp_cat_img hp_cat_img4"></div></a>
-                    <p class="hp-title-link px-3 mb-5 boldd">DEBONAIR</p>
-                </div>
-            </div>
         </div>
-    </div>
-    <!-- <div id="lookbook_1" class=" mt-5 form-box2">
-       <div class="d-flex justify-content-evenly text-border container">
-        <div>
-            <h3 class="bold">JOIN THE COMMUNITY</h3>
-            <p>Stay connected with the Marquess London story.</p>
-        </div>
-        <div class="input-group mb-3 mt-4 col-md-4">
-            <input type="text" class="form-control custom_txtf">
-            <button class="btn custom_btn_2" type="button" id="button-addon2">Subscribe</button>
-        </div>
-       </div>
-    </div> -->
-    <div id="form" class="container pt-5 mt-5">
-        <div class="d-flex justify-content-evenly">
-            <div class="form-box container px-5 pt-5">
+        <div class=" mt-5 form-box2">
+        <div class="d-flex justify-contents-between text-border container">
+            <div class="col-md-5">
                 <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
-                <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
-                <div class="input-group mb-3 mt-4">
-                    <input type="text" class="form-control custom_txtf">
-                    <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
-                </div>
+                <p>Stay connected with the Marquess London story.</p>
             </div>
-            <div class="form-box container px-5 pt-5">
-                <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
-                <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
-                <div class="input-group mb-3 mt-4">
-                    <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+            <div class="input-group mb-3 mt-4 col-md-5">
+                <input type="text" class="custom_txtf2">
+                <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+            </div>
+        </div>
+        </div>
+        <div class=" mt-5 form-box3">
+        <div class="d-flex justify-content-evenly text-border container pt-4 px-5">
+            <h3 class="early_birdd bigg col-md-4">Tailoring</h3>
+            <p class="col-md-5 justify" >We believe first impressions are developed from one's appearance and looking the part is a tool to self-confidence. Therefore, the Marquess Man’s journey should begin in a well-cut, tailored garment to match his vision, individuality, and creative expression. Get to know more on our two made to measure brand lines</p>
+        </div>
+        </div>
+        <div id="lookbook" class="container process_img_box pt-5 d-flex justify-contents-between">
+            <div class=" process_cat_current bold col-md-6">
+                <a href=".//html/swank_line.html"><div class=" process_cat_img1"></div></a>
+                <p class="process-title-link px-3 mb-5 bold">SWANK LINE</p>
+            </div>
+            <div class=" process_cat_current bold col-md-6">
+                <a href=".//html/modcon.html"><div class=" process_cat_img2"></div></a>
+                <p class="process-title-link px-3 mb-5 bold">MODCON LINE</p>
+            </div>
+        </div>
+        <div class=" form-box3 pt-5 mt-5">
+            <div class="d-flex justify-content-evenly text-border container pt-4 px-5">
+                <h3 class="early_birdd bigg col-md-4">Lifestyle</h3>
+                <p class="col-md-5 justify" >What profits the Marquess Man with a custom defined tailored wardrobe, without experiences to follow? Our lifestyle experiences bestow the Marquess brand, allowing clientele an avenue to enjoy curated experiences, enhancing their way of living.</p>
+            </div>
+        </div>
+        <div class=" lifestyle_img_box d-flex justify-content-evenly">
+            <div class=" process_cat_current bold col-md-4">
+                <a href="#"><div class=" lifestyle_cat_img1"></div></a>
+                <p class="lifestyle-title-link px-3 mb-5 bold">LEISURE</p>
+            </div>
+            <div class=" process_cat_current bold col-md-4">
+                <a href="#"><div class=" lifestyle_cat_img2"></div></a>
+                <p class="lifestyle-title-link px-3 mb-5 bold">MUSIC</p>
+            </div>
+        </div>
+        <div id="form" class="container pt-5 mt-5 show_bg">
+            <div class="d-flex justify-content-between">
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>830*332
-
+        <div id="form" class="container pt-5 mt-5 show_md">
+            <div class="d-flex justify-content-between">
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div style="width: 20px;"></div>
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form" class="container pt-5 mt-5 show_md_md">
+            <div class="d-flex justify-content-between">
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div style="width: 20px;"></div>
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form" class="container-fluid pt-5 mt-5 show_sm">
+            <div class="d-flex justify-content-between">
+                <div class="form-box_sm container px-5 pt-5">
+                    <h3 class="bold pb-5 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div style="width: 20px;"></div>
+                <div class="form-box_sm container px-5 pt-5">
+                    <h3 class="bold pb-5 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form" class="container-fluid pt-5 mt-5 show_xs">
+            <div>
+                <div class="form-box_xs container px-5 pt-5">
+                    <h3 class="bold pb-5 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div class="form-box_xs container px-5 pt-5 mt-5">
+                    <h3 class="bold pb-5 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container center mt-5 pt-5">
+            <i class="fa-brands fa-instagram fa-bounce px-2"></i>
+            <i class="fa-brands fa-square-facebook fa-bounce px-2"></i>
+            <i class="fa-brands fa-square-twitter fa-bounce px-2"></i>
+            <i class="fa-brands fa-linkedin fa-bounce px-2"></i>
+        </div>
+        <div class="container center mt-3 pt-3">
+            <span><a href=".//html/clauses.html" class="text_link2 px-4">CLAUSES</a></span>
+            <span><a href=".//html/faq.html" class="text_link2 px-4">FAQ</a></span>
+        </div>
+        <div class="container center mt-3 pt-1">
+            <span>Copyright © 2023. Marquess London. All Rights Reserved</span>
+        </div>
+        830*332
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
+    <script type="text/javascript">
+        function togglenav() {
+      var myNav = document.getElementById('nav_hidden');
+      var myNav2 = document.getElementById('nav_sm_body');
+      var displaySetting = myNav.style.display;
+      var displaySetting2 = myNav2.style.display;
+      if (displaySetting == 'block') {
+        myNav.style.display = 'none';
+      }
+      else {
+        myNav.style.display = 'block';
+      }
+
+      if (displaySetting2 == 'none') {
+        myNav2.style.display = 'block';
+      }
+      else {
+        myNav2.style.display = 'none';
+      }
+
+    }
+
+    function nav_show() {
+      var myNav = document.getElementById('nav_hidden');
+      var myNav2 = document.getElementById('nav_sm_body');
+      var displaySetting = myNav.style.display;
+      var displaySetting2 = myNav2.style.display;
+      if (displaySetting == 'block') {
+        myNav.style.display = 'none';
+      }
+      else {
+        myNav.style.display = 'block';
+      }
+
+      if (displaySetting2 == 'none') {
+        myNav2.style.display = 'block';
+      }
+      else {
+        myNav2.style.display = 'none';
+      }
+
+    }
+    
+    function tailoring_nav() {
+      var myNav = document.getElementById('tailoring_nav_show');
+      var displaySetting = myNav.style.display;
+      if (displaySetting == 'block') {
+        myNav.style.display = 'none';
+      }
+      else {
+        myNav.style.display = 'block';
+      }
+
+    }
+    </script>
 </body>
 </html>

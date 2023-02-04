@@ -10,282 +10,1219 @@
     <title>Marquess London | Marquess Man</title>
 </head>
 <body>
-    <div class="slider">
-        <marquee behavior="" direction=""><p class="slider white_text px-3 pt-2 mb-0"> <span class="bold">Just In:</span> We’re closed for holidays from December 20th 2021 to Jan 9th 2022</p></marquee>
+    <div class="nav_hidden  mx-auto" id="nav_hidden">
+        <i class="fa-solid fa-xmark fa-3x mt-5 point mx-3" onclick="nav_show()"></i>
+        <div class="center">
+            <ul class="nav_sm_link">
+                <li class="point" onclick="tailoring_nav()">TAILORING</li>
+                    <ul class="nav_sm_link2" id="tailoring_nav_show">
+                        <li class="point"><a href="./process.html" class="clean_list2">OUR PROCESS</a></li>
+                        <li class="point"><a href="./swank_line.html" class="clean_list2">SWANK LINE</a></li>
+                        <li class="point"><a href="./modcon.html"class="clean_list2">MODCON LINE</a></li>
+                    </ul>
+                <li class="point">LIFESTYLE</li>
+                <li class="point"><a href="./marquess_man.html" class="clean_list2">MARQUESS MAN</a></li>
+                <li class="point"><a href="./story.html" class="clean_list2">OUR STORY</a></li>
+                <li class="point">GET IN TOUCH</li>
+            </ul>
+        </div>
     </div>
-    <div>
-        <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_bg">
-            <div class="container">
-                <ul class="navbar-nav">
-                    <li class="nav-item px-3">
-                        <div class="dropdown">
-                            <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
-                            <div class="dropdown-content">
-                                <a href="./process.html">OUR PROCESS</a>
-                                <a href="./swank_line.html">SWANK LINE</a>
-                                <a href="./modcon.html">MODCON LINE</a>
+    <div id="nav_sm_body">
+        <div class="slider">
+            <marquee behavior="" direction=""><p class="slider white_text px-3 pt-2 mb-0"> <span class="bold">Just In:</span> We’re closed for holidays from December 20th 2021 to Jan 9th 2022</p></marquee>
+        </div>
+        <div>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_bg">
+                <div class="container">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <div class="dropdown">
+                                <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
+                                <div class="dropdown-content">
+                                    <a href="./process.html">OUR PROCESS</a>
+                                    <a href="./swank_line.html">SWANK LINE</a>
+                                    <a href="./modcon.html">MODCON LINE</a>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
-                    <li class="nav-item px-3 pb-3">M<span class="nav_line_current">ARQUESS MAN</span></li>
-                </ul>
-                <a class="navbar-brand mx-5" href="../index.html">
+                        </li>
+                        <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
+                        <li class="nav-item px-3 pb-3">M<span class="nav_line_current">ARQUESS MAN</span></li>
+                    </ul>
+                    <a class="navbar-brand mx-5" href="../index.html">
+                        <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
+                        <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
+                        <li class="nav-item px-3 gray_text">G<span>ET IN TOUCH</span></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_md">
+                <a class="navbar-brand mx-5 my-5" href="../index.html">
                     <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
                 </a>
-                <ul class="navbar-nav">
-                     <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
-                    <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
-                    <li class="nav-item px-3 gray_text">G<span>ET IN TOUCH</span></li>
-                </ul>
-            </div>
-        </nav>
-        <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_sm">
-            <a class="navbar-brand mx-5 my-5" href="#">
-                <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
-            </a>
-            <div class="container mt-3 nav_sm_adjust">
-                <ul class="navbar-nav">
-                    <li class="nav-item px-3">
-                        <div class="dropdown">
-                            <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
-                            <div class="dropdown-content">
-                                <a href="./process.html">OUR PROCESS</a>
-                                <a href="./swank_line.html">SWANK LINE</a>
-                                <a href="./modcon.html">MODCON LINE</a>
+                <div class="container-fluid mt-3 nav_md_adjust">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <div class="dropdown">
+                                <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
+                                <div class="dropdown-content">
+                                    <a href="./process.html">OUR PROCESS</a>
+                                    <a href="./swank_line.html">SWANK LINE</a>
+                                    <a href="./modcon.html">MODCON LINE</a>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
-                    <li class="nav-item px-3 pb-3">M<span class="nav_line_current">ARQUESS MAN</span></li>
-                     <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
-                    <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
-                </ul>
+                        </li>
+                        <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
+                        <li class="nav-item px-3 pb-3">M<span class="nav_line_current">ARQUESS MAN</span></li>
+                        <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
+                        <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar py-3 show_md_md">
+                <a class="navbar-brand mx-5 my-5" href="../index.html">
+                    <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
+                </a>
+                <div class="container-fluid mt-3 nav_md_adjust">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <div class="dropdown">
+                                <a class="dropbtn">T<span class="nav_line">AILORING</span></a>
+                                <div class="dropdown-content">
+                                    <a href="./process.html">OUR PROCESS</a>
+                                    <a href="./swank_line.html">SWANK LINE</a>
+                                    <a href="./modcon.html">MODCON LINE</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=" px-3">L<span class="nav_line cool-link">IFESTYLE</span></li>
+                        <li class="nav-item px-3 pb-3">M<span class="nav_line_current">ARQUESS MAN</span></li>
+                        <li class="nav-item px-3"><a href="./story.html" class="clean_list">O<span class="nav_line">UR STORY</span></a></li>
+                        <li class="nav-item px-3">G<span class="nav_line">ET IN TOUCH</span></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar sticky-top bg-light navbar-expand-md menu-bar nav_sm">
+                <div class="container">
+                <i class="fa-solid fa-bars float-start fa-3x point" onclick="togglenav()"></i>
+                <a class="navbar-brand mx-auto py-3 center" href="../index.html">
+                    <img src="../imgs/ML-Black-Logo.svg" alt="logo" class="logo">
+                </a>
+                </div>
+            </nav>
+        </div>
+        <div id="showcase_mm" class="pt-3">
+            <h1 class="container white_text early_bird biggg">Marquess Man</h1>
+        </div>
+        <div id="catalogue" class="container cat_parent pt-5 show_bg">
+            <div class="div1 grid_box_cat_current bold" id="corporate_man" onclick="togglecorporate()">
+                <div class="grid_box_cat_img grid_box_cat_img1"></div>
+                <p class="article-title-link px-3 mb-5 bold">CORPORATE MAN</p>
             </div>
-        </nav>
-    </div>
-     <div id="showcase_mm" class="pt-3">
-        <h1 class="container white_text early_bird biggg">Marquess Man</h1>
-    </div>
-    <div id="catalogue" class="container cat_parent pt-5">
-        <div class="div1 grid_box_cat_current bold" id="corporate_man" onclick="togglecorporate()">
-            <div class="grid_box_cat_img grid_box_cat_img1"></div>
-            <p class="article-title-link px-3 mb-5 bold">CORPORATE MAN</p>
+            <div class="div1 grid_box_cat bold" id="the_weekender" onclick="toggleweekender()">
+                <div class="grid_box_cat_img grid_box_cat_img2"></div>
+                <p class="article-title-link px-3 mb-5 bold">THE WEEKENDER</p>
+            </div>
+            <div class="div1 grid_box_cat bold" id="modish_man" onclick="togglemodish()">
+                <div class="grid_box_cat_img grid_box_cat_img3"></div>
+                <p class="article-title-link px-3 mb-5 bold">MODISH MAN</p>
+            </div>
+            <div class="div1 grid_box_cat bold" id="debonair" onclick="toggledebonair()">
+                <div class="grid_box_cat_img grid_box_cat_img4"></div>
+                <p class="article-title-link px-3 mb-5 bold">DEBONAIR</p>
+            </div>
         </div>
-        <div class="div1 grid_box_cat bold" id="the_weekender" onclick="toggleweekender()">
-            <div class="grid_box_cat_img grid_box_cat_img2"></div>
-            <p class="article-title-link px-3 mb-5 bold">THE WEEKENDER</p>
+        <div id="catalogue" class="container-fluid cat_parent pt-5 show_md_grid">
+            <div class="div1 grid_box_cat_current bold" id="corporate_man_md" onclick="togglecorporate_md()">
+                <div class="grid_box_cat_img grid_box_cat_img1"></div>
+                <p class="article-title-link px-3 mb-5 bold">CORPORATE MAN</p>
+            </div>
+            <div class="div1 grid_box_cat bold" id="the_weekender_md" onclick="toggleweekender_md()">
+                <div class="grid_box_cat_img grid_box_cat_img2"></div>
+                <p class="article-title-link px-3 mb-5 bold">THE WEEKENDER</p>
+            </div>
+            <div class="div1 grid_box_cat bold" id="modish_man_md" onclick="togglemodish_md()">
+                <div class="grid_box_cat_img grid_box_cat_img3"></div>
+                <p class="article-title-link px-3 mb-5 bold">MODISH MAN</p>
+            </div>
+            <div class="div1 grid_box_cat bold" id="debonair_md" onclick="toggledebonair_md()">
+                <div class="grid_box_cat_img grid_box_cat_img4"></div>
+                <p class="article-title-link px-3 mb-5 bold">DEBONAIR</p>
+            </div>
         </div>
-        <div class="div1 grid_box_cat bold" id="modish_man" onclick="togglemodish()">
-            <div class="grid_box_cat_img grid_box_cat_img3"></div>
-            <p class="article-title-link px-3 mb-5 bold">MODISH MAN</p>
+        <div id="catalogue" class="container cat_parent2 pt-5 mx-5 px-5 show_md_md_grid">
+            <div class="div1 grid_box_cat_current_md bold mx-5" id="corporate_man_md_md" onclick="togglecorporate_md_md()">
+                <div class="grid_box_cat_img grid_box_cat_img1"></div>
+                <p class="article-title-link px-3 mb-5 bold">CORPORATE MAN</p>
+            </div>
+            <div class="div1 grid_box_cat_md bold" id="the_weekender_md_md" onclick="toggleweekender_md_md()">
+                <div class="grid_box_cat_img grid_box_cat_img2"></div>
+                <p class="article-title-link px-3 mb-5 bold">THE WEEKENDER</p>
+            </div>
         </div>
-        <div class="div1 grid_box_cat bold" id="debonair" onclick="toggledebonair()">
-            <div class="grid_box_cat_img grid_box_cat_img4"></div>
-            <p class="article-title-link px-3 mb-5 bold">DEBONAIR</p>
+        <div id="catalogue" class="container cat_parent2 pt-5 mx-5 px-5 show_md_md_grid">
+            <div class="div1 grid_box_cat_md bold mx-5" id="modish_man_md_md" onclick="togglemodish_md_md()">
+                <div class="grid_box_cat_img grid_box_cat_img3"></div>
+                <p class="article-title-link px-3 mb-5 bold">MODISH MAN</p>
+            </div>
+            <div class="div1 grid_box_cat_md bold" id="debonair_md_md" onclick="toggledebonair_md_md()">
+                <div class="grid_box_cat_img grid_box_cat_img4"></div>
+                <p class="article-title-link px-3 mb-5 bold">DEBONAIR</p>
+            </div>
         </div>
-    </div>
+        <div id="catalogue" class="container cat_parent2 pt-5 mx-5 show_sm_grid">
+            <div class="div1 grid_box_cat_current_md bold" id="corporate_man_sm" onclick="togglecorporate_sm()">
+                <div class="grid_box_cat_img grid_box_cat_img1"></div>
+                <p class="article-title-link px-3 mb-5 bold">CORPORATE MAN</p>
+            </div>
+            <div class="div1 grid_box_cat_md bold" id="the_weekender_sm" onclick="toggleweekender_sm()">
+                <div class="grid_box_cat_img grid_box_cat_img2"></div>
+                <p class="article-title-link px-3 mb-5 bold">THE WEEKENDER</p>
+            </div>
+        </div>
+        <div id="catalogue" class="container cat_parent2 pt-5 mx-5 show_sm_grid">
+            <div class="div1 grid_box_cat_md bold" id="modish_man_sm" onclick="togglemodish_sm()">
+                <div class="grid_box_cat_img grid_box_cat_img3"></div>
+                <p class="article-title-link px-3 mb-5 bold">MODISH MAN</p>
+            </div>
+            <div class="div1 grid_box_cat_md bold" id="debonair_sm" onclick="toggledebonair_sm()">
+                <div class="grid_box_cat_img grid_box_cat_img4"></div>
+                <p class="article-title-link px-3 mb-5 bold">DEBONAIR</p>
+            </div>
+        </div>
+        <div id="catalogue" class="container cat_parent3 pt-5 mx-5 show_xs_grid">
+            <div class="div1 grid_box_cat_current_md bold" id="corporate_man_xs" onclick="togglecorporate_xs()">
+                <div class="grid_box_cat_img grid_box_cat_img1"></div>
+                <p class="article-title-link px-3 mb-5 bold">ORPORATE MAN</p>
+            </div>
+        </div>
+        <div id="catalogue" class="container cat_parent3 pt-5 mx-5 show_xs_grid">
+            <div class="div1 grid_box_cat_md bold" id="the_weekender_xs" onclick="toggleweekender_xs()">
+                <div class="grid_box_cat_img grid_box_cat_img2"></div>
+                <p class="article-title-link px-3 mb-5 bold">THE WEEKENDER</p>
+            </div>
+        </div>
+        <div id="catalogue" class="container cat_parent3 pt-5 mx-5 show_xs_grid">
+            <div class="div1 grid_box_cat_md bold" id="modish_man_xs" onclick="togglemodish_xs()">
+                <div class="grid_box_cat_img grid_box_cat_img3"></div>
+                <p class="article-title-link px-3 mb-5 bold">MODISH MAN</p>
+            </div>
+        </div>
+        <div id="catalogue" class="container cat_parent3 pt-5 mx-5 show_xs_grid">
+            <div class="div1 grid_box_cat_md bold" id="debonair_xs" onclick="toggledebonair_xs()">
+                <div class="grid_box_cat_img grid_box_cat_img4"></div>
+                <p class="article-title-link px-3 mb-5 bold">DEBONAIR</p>
+            </div>
+        </div>
 
-    <div id="corporate_man_show" class="container pt-5">
-        <span class=" bigg float-start H_bold bold">CORPORATE MAN</span>
-        <div class="corp_man img_box_1 container"> 
-            <br>
-            <div class="text_box_parent4 container">
-                <p class="small text_box_child4" style="text-align: justify;">The Corporate Man demonstrates creative expression, but through his simplicity. His quiet confidence shows you don’t need to be the loudest in the room to make the biggest impact. Dependable, trustworthy, and committed, the Corporate Man looks for excellence both in himself, and his work. </p>
-            </div>
-        </div>
-        <div id="catalogue2" class="container parent_2 pt-5">
-            <div class="corp_man2 grid_box_2 container">
-                <p class="bigg white_text H_bold">1</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2" style="text-align: justify;">Headed for a big day in the office, he opts for subtle tones with patterns, giving him confidence with subtle character to take on the day. He has an understated coolness and enjoys the rigours of his day, filled with management presentations. Knowing he has the evening to catch up with friends for a mini golf challenge and leave the day behind him.</p>
-                </div>
-            </div>
-            <div class="corp_man3 grid_box_2 container">
-                <p class="bigg white_text H_bold">2</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2" style="text-align: justify;">He is not confined to the office; wherever he chooses to work, he makes a real impact – with his made to measure suit reflecting his modest reliability. He opts for a grey midweight moderate padded windowpane super 130’s natural wool peaked lapel double breasted 2-piece suit paired with a white cotton twill shirt. (SWANK Line)</p>
-                </div>
-            </div>
-        </div>
-        <div id="catalogue2" class="container-fluid pt-5">
-            <div class="corp_man4 img_box_1 container-fluid">
+        <div id="corporate_man_show" class="container pt-5 show_bg">
+            <span class=" bigg float-start H_bold bold">CORPORATE MAN</span>
+            <div class="corp_man img_box_1 container"> 
                 <br>
-                <div class="text_box_parent3 container">
-                    <p class="small text_box_child3">Over a morning meeting ahead of a big day, or a coffee between meetings, The Corporate Man is calm and in control. Despite his cool confidence, he is modest and humble – a true representation of today’s man. The navy soft tailored glen check super 120’s merino wool 2-piece double breasted suit paired with a spread collar navy/white striped cotton shirt is a staple for him. (SWANK Line)</p>
+                <div class="text_box_parent4 container">
+                    <p class="small text_box_child4" style="text-align: justify;">The Corporate Man demonstrates creative expression, but through his simplicity. His quiet confidence shows you don’t need to be the loudest in the room to make the biggest impact. Dependable, trustworthy, and committed, the Corporate Man looks for excellence both in himself, and his work. </p>
                 </div>
             </div>
-        </div>
-        <div id="catalogue3" class="container parent_2 pt-5">
-            <div class="corp_man5 grid_box_2 container">
-                <p class="bigg white_text">1</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">Walking through London in between work meetings to grab some lunch and do some retail therapy with colleagues to wind down and recharge. His navy suit shows and maintains his assertive look, fittingly representing his inner self, personality, and purpose through the day. Accessories by items that further reflect the subtle dynamism and presence of The Corporate Man.</p>
+            <div id="catalogue2" class="container parent_2 pt-5">
+                <div class="corp_man2 grid_box_2 container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2" style="text-align: justify;">Headed for a big day in the office, he opts for subtle tones with patterns, giving him confidence with subtle character to take on the day. He has an understated coolness and enjoys the rigours of his day, filled with management presentations. Knowing he has the evening to catch up with friends for a mini golf challenge and leave the day behind him.</p>
+                    </div>
+                </div>
+                <div class="corp_man3 grid_box_2 container">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2" style="text-align: justify;">He is not confined to the office; wherever he chooses to work, he makes a real impact – with his made to measure suit reflecting his modest reliability. He opts for a grey midweight moderate padded windowpane super 130’s natural wool peaked lapel double breasted 2-piece suit paired with a white cotton twill shirt. (SWANK Line)</p>
+                    </div>
                 </div>
             </div>
-            <div class="corp_man6 grid_box_2 container">
-                <p class="bigg white_text">2</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">Like Mr. Modish, he is confident in his skin yet understated to how he displays it. Like the weekender, he is there for his community, as a source of wisdom and assurance, acknowledging the imperfections that come with the journey he is embarking on.</p>
-                </div>
-            </div> 
-        </div>
-    </div>
-
-    <div id="the_weekender_show" class="container pt-5">
-        <span class="bold bigg float-start H_bold ">THE WEEKENDER</span>
-        <div class="weekender img_box_1 container">
-            <br>
-            <div class="text_box_parent4 container">
-                <p class="small text_box_child4" style="text-align: justify;">Freedom is the priority for The Weekender. In both work and leisure, he expresses originality with his relaxed yet chic approach to style. Whether spending time with family, friends, or colleagues, the weekender displays creativity, and seeks a well-curated outfit for any trip away or event the weekend may throw his way. </p>
-            </div>   
-        </div>
-        <div id="catalogue2" class="container parent_2 pt-5">
-            <div class="weekender2 grid_box_2 container">
-                <p class="bigg white_text H_bold">1</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">He pairs a dark brown soft tailored 2-piece super 120’s worsted wool double breasted suit paired with a turquoise cotton poplin classic collar shirt (SWANK Line), dressing it down with a pink dad cap. The type of outfit that can take you through a casual weekend, meeting friends in the city or for an eventful weekend date.</p>
+            <div id="catalogue2" class="container-fluid pt-5">
+                <div class="corp_man4 img_box_1 container-fluid">
+                    <br>
+                    <div class="text_box_parent3 container">
+                        <p class="small text_box_child3">Over a morning meeting ahead of a big day, or a coffee between meetings, The Corporate Man is calm and in control. Despite his cool confidence, he is modest and humble – a true representation of today’s man. The navy soft tailored glen check super 120’s merino wool 2-piece double breasted suit paired with a spread collar navy/white striped cotton shirt is a staple for him. (SWANK Line)</p>
+                    </div>
                 </div>
             </div>
-            <div class="weekender3 grid_box_2 container">
-                <p class="bigg white_text H_bold">2</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">From a casual morning coffee, to a weekend spent abroad for a friend’s wedding, He moves effortlessly between work and events, with timeless garments in pleasant colours and a bold pattern to show his persona versatility. Drawing the presence and the bold character usually associated with Mr. Modish.</p>
+            <div id="catalogue3" class="container parent_2 pt-5">
+                <div class="corp_man5 grid_box_2 container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">Walking through London in between work meetings to grab some lunch and do some retail therapy with colleagues to wind down and recharge. His navy suit shows and maintains his assertive look, fittingly representing his inner self, personality, and purpose through the day. Accessories by items that further reflect the subtle dynamism and presence of The Corporate Man.</p>
+                    </div>
                 </div>
+                <div class="corp_man6 grid_box_2 container">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">Like Mr. Modish, he is confident in his skin yet understated to how he displays it. Like the weekender, he is there for his community, as a source of wisdom and assurance, acknowledging the imperfections that come with the journey he is embarking on.</p>
+                    </div>
+                </div> 
             </div>
         </div>
-        <div id="catalogue2" class="container-fluid pt-5">
-            <div class="weekender4 img_box_1 container-fluid">
+        <div id="corporate_man_show_md" class="container-fluid pt-5 show_md">
+            <span class=" bigg float-start H_bold bold">CORPORATE MAN</span>
+            <div class="corp_man img_box_1 container"> 
                 <br>
-                <div class="text_box_parent3 container">
-                    <p class="small text_box_child3">The Weekender reminds you not to allow the challenges of life drain you out – positive energy that puts those around him at ease. He spends a warm weekend in the city in touring his favourite art galleries before heading for a spontaneous live jazz show with his significant other.</p>
+                <div class="text_box_parent4 container">
+                    <p class="small text_box_child4" style="text-align: justify;">The Corporate Man demonstrates creative expression, but through his simplicity. His quiet confidence shows you don’t need to be the loudest in the room to make the biggest impact. Dependable, trustworthy, and committed, the Corporate Man looks for excellence both in himself, and his work. </p>
                 </div>
             </div>
-        </div>
-        <div id="catalogue3" class="container parent_2 pt-5">
-            <div class="weekender5 grid_box_2 container">
-                <p class="bigg white_text">1</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">Grabbing an iced coffee over a catch up with family, or stopping for a coffee on a summer city break, His taupe/white striped Cuban collar shirt brings out his social, laidback nature, making those around him feel at ease with his effortless, crisp appearance.</p>
+            <div id="catalogue2" class="container-fluid parent_2 pt-5">
+                <div class="corp_man2 grid_box_2_md container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2" style="text-align: justify;">Headed for a big day in the office, he opts for subtle tones with patterns, giving him confidence with subtle character to take on the day. He has an understated coolness and enjoys the rigours of his day, filled with management presentations. Knowing he has the evening to catch up with friends for a mini golf challenge and leave the day behind him.</p>
+                    </div>
+                </div>
+                <div class="corp_man3 grid_box_2_md container">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2" style="text-align: justify;">He is not confined to the office; wherever he chooses to work, he makes a real impact – with his made to measure suit reflecting his modest reliability. He opts for a grey midweight moderate padded windowpane super 130’s natural wool peaked lapel double breasted 2-piece suit paired with a white cotton twill shirt. (SWANK Line)</p>
+                    </div>
                 </div>
             </div>
-            <div class="weekender6 grid_box_2 container">
-                <p class="bigg white_text">2</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">With his entrepreneurial mind, casual drinks often involve bouncing his latest ideas of friends and getting them excited about his plans. He can be seen in a brown/green unlined and unstructured linen/wool/silk blend single breasted jacket flowing with the relaxed atmosphere of his work life. His trousers are navy 100% linen paired with a white buttoned-down collar oxford cotton shirt.</p>
-                </div>
-            </div> 
-        </div>
-    </div>
-
-    <div id="modish_man_show" class="container pt-5">
-        <span class="bold bigg float-start H_bold ">MODISH MAN</span>
-        <div class="modish_man img_box_1 container"> 
-            <br>
-            <div class="text_box_parent4 container">
-                <p class="small text_box_child4" style="text-align: justify;">Only Mr Modish oozes personal freedom more than The Weekender. Mr Modish is daring and bold and ignores convention in a way that earns him respect as others envy his confidence to stand out and pull it off so well. Where he leads, few are likely to follow, as few can pull off his looks quite as well.</p>
-            </div>   
-        </div>
-        <div id="catalogue2" class="container parent_2 pt-5">
-            <div class="modish_man2 grid_box_2 container">
-                <p class="bigg white_text H_bold">1</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">In a mustard yellow unstructured wool/silk peak lapel double breasted jacket. Paired with grey linen high-waisted trousers with signature Milanese Lapel Buttonhole and Butterfly Trousers Waist Side Adjusters, he naturally owns the streets. (SWANK Line)</p>
+            <div id="catalogue2" class="container-fluid pt-5">
+                <div class="corp_man4 img_box_1_md container-fluid">
+                    <br>
+                    <div class="text_box_parent3 container">
+                        <p class="small text_box_child3">Over a morning meeting ahead of a big day, or a coffee between meetings, The Corporate Man is calm and in control. Despite his cool confidence, he is modest and humble – a true representation of today’s man. The navy soft tailored glen check super 120’s merino wool 2-piece double breasted suit paired with a spread collar navy/white striped cotton shirt is a staple for him. (SWANK Line)</p>
+                    </div>
                 </div>
             </div>
-            <div class="modish_man3 grid_box_2 container">
-                <p class="bigg white_text H_bold">2</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">Special events, a wedding, or a night out, bring out the Modish Man and his daring inner personality – most conversations starting with a compliment of his outfit.</p>
+            <div id="catalogue3" class="container-fluid parent_2 pt-5">
+                <div class="corp_man5 grid_box_2_md container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Walking through London in between work meetings to grab some lunch and do some retail therapy with colleagues to wind down and recharge. His navy suit shows and maintains his assertive look, fittingly representing his inner self, personality, and purpose through the day. Accessories by items that further reflect the subtle dynamism and presence of The Corporate Man.</p>
+                    </div>
                 </div>
+                <div class="corp_man6 grid_box_2_md container">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Like Mr. Modish, he is confident in his skin yet understated to how he displays it. Like the weekender, he is there for his community, as a source of wisdom and assurance, acknowledging the imperfections that come with the journey he is embarking on.</p>
+                    </div>
+                </div> 
             </div>
         </div>
-        <div id="catalogue2" class="container-fluid pt-5">
-            <div class="modish_man4 img_box_1 container-fluid">
+        <div id="corporate_man_show_md_md" class="container-fluid pt-5 show_md_md">
+            <span class=" bigg float-start H_bold bold mt-5 pt-5">CORPORATE MAN</span>
+            <div class="corp_man img_box_1_md_md container"> 
                 <br>
-                <div class="text_box_parent3 container">
-                    <p class="small text_box_child3">The bold colour of his jacket and the strong contrast of his purple linen shirt is balanced effortlessly by his neutral toned grey trousers. If there was a persona that symbolises ‘to calculatedly wear our heart on our sleeve’, it will be Mr Modish.</p>
+                <div class="text_box_parent4_md_md container">
+                    <p class="small text_box_child4" style="text-align: justify;">The Corporate Man demonstrates creative expression, but through his simplicity. His quiet confidence shows you don’t need to be the loudest in the room to make the biggest impact. Dependable, trustworthy, and committed, the Corporate Man looks for excellence both in himself, and his work. </p>
                 </div>
             </div>
-        </div>
-        <div id="catalogue3" class="container parent_2 pt-5">
-            <div class="modish_man5 grid_box_2 container">
-                <p class="bigg white_text">1</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">The Modish Man turns heads, in a humble manner. His orange soft tailored linen/wool basketweave 2-piece suit turns heads as people stop and stare at his daring yet genius style. (SWANK Line)</p>
+            <div id="catalogue2" class="container-fluid parent_2_md_md pt-5">
+                <div class="corp_man2 grid_box_2_md container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2" style="text-align: justify;">Headed for a big day in the office, he opts for subtle tones with patterns, giving him confidence with subtle character to take on the day. He has an understated coolness and enjoys the rigours of his day, filled with management presentations. Knowing he has the evening to catch up with friends for a mini golf challenge and leave the day behind him.</p>
+                    </div>
+                </div>
+                <div class="corp_man3 grid_box_2_md container mt-5">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2" style="text-align: justify;">He is not confined to the office; wherever he chooses to work, he makes a real impact – with his made to measure suit reflecting his modest reliability. He opts for a grey midweight moderate padded windowpane super 130’s natural wool peaked lapel double breasted 2-piece suit paired with a white cotton twill shirt. (SWANK Line)</p>
+                    </div>
                 </div>
             </div>
-            <div class="modish_man6 grid_box_2 container">
-                <p class="bigg white_text">2</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">With a lovat/white linen/cotton mandarin collar striped shirt, his outfit creates a strong statement. There is a Modish Man in every Marquess Man. (SWANK Line)</p>
+            <div id="catalogue2" class="container-fluid pt-5">
+                <div class="corp_man4 img_box_1_md_md container-fluid">
+                    <br>
+                    <div class="text_box_parent3_md_md container">
+                        <p class="small text_box_child3">Over a morning meeting ahead of a big day, or a coffee between meetings, The Corporate Man is calm and in control. Despite his cool confidence, he is modest and humble – a true representation of today’s man. The navy soft tailored glen check super 120’s merino wool 2-piece double breasted suit paired with a spread collar navy/white striped cotton shirt is a staple for him. (SWANK Line)</p>
+                    </div>
                 </div>
-            </div> 
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2_md_md pt-5">
+                <div class="corp_man5 grid_box_2_md container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Walking through London in between work meetings to grab some lunch and do some retail therapy with colleagues to wind down and recharge. His navy suit shows and maintains his assertive look, fittingly representing his inner self, personality, and purpose through the day. Accessories by items that further reflect the subtle dynamism and presence of The Corporate Man.</p>
+                    </div>
+                </div>
+                <div class="corp_man6 grid_box_2_md container mt-5">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Like Mr. Modish, he is confident in his skin yet understated to how he displays it. Like the weekender, he is there for his community, as a source of wisdom and assurance, acknowledging the imperfections that come with the journey he is embarking on.</p>
+                    </div>
+                </div> 
+            </div>
         </div>
-    </div>
+        <div id="corporate_man_show_sm" class="container-fluid pt-5 show_sm">
+            <span class=" bigg float-start H_bold bold mt-5 pt-5">CORPORATE MAN</span>
+            <div class="corp_man img_box_1_sm container"> 
+                <br>
+                <div class="text_box_parent4_sm container">
+                    <p class="small text_box_child4" style="text-align: justify;">The Corporate Man demonstrates creative expression, but through his simplicity. His quiet confidence shows you don’t need to be the loudest in the room to make the biggest impact. Dependable, trustworthy, and committed, the Corporate Man looks for excellence both in himself, and his work. </p>
+                </div>
+            </div>
+            <div id="catalogue2" class="container-fluid parent_2_md_md pt-5">
+                <div class="corp_man2 grid_box_2_md container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2" style="text-align: justify;">Headed for a big day in the office, he opts for subtle tones with patterns, giving him confidence with subtle character to take on the day. He has an understated coolness and enjoys the rigours of his day, filled with management presentations. Knowing he has the evening to catch up with friends for a mini golf challenge and leave the day behind him.</p>
+                    </div>
+                </div>
+                <div class="corp_man3 grid_box_2_md container mt-5">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2" style="text-align: justify;">He is not confined to the office; wherever he chooses to work, he makes a real impact – with his made to measure suit reflecting his modest reliability. He opts for a grey midweight moderate padded windowpane super 130’s natural wool peaked lapel double breasted 2-piece suit paired with a white cotton twill shirt. (SWANK Line)</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue2" class="container-fluid pt-5">
+                <div class="corp_man4 img_box_1_sm container-fluid">
+                    <br>
+                    <div class="text_box_parent4_sm container">
+                        <p class="small text_box_child3">Over a morning meeting ahead of a big day, or a coffee between meetings, The Corporate Man is calm and in control. Despite his cool confidence, he is modest and humble – a true representation of today’s man. The navy soft tailored glen check super 120’s merino wool 2-piece double breasted suit paired with a spread collar navy/white striped cotton shirt is a staple for him. (SWANK Line)</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2_md_md pt-5">
+                <div class="corp_man5 grid_box_2_md container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Walking through London in between work meetings to grab some lunch and do some retail therapy with colleagues to wind down and recharge. His navy suit shows and maintains his assertive look, fittingly representing his inner self, personality, and purpose through the day. Accessories by items that further reflect the subtle dynamism and presence of The Corporate Man.</p>
+                    </div>
+                </div>
+                <div class="corp_man6 grid_box_2_md container mt-5">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Like Mr. Modish, he is confident in his skin yet understated to how he displays it. Like the weekender, he is there for his community, as a source of wisdom and assurance, acknowledging the imperfections that come with the journey he is embarking on.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="corporate_man_show_xs" class=" pt-5 show_xs px-2">
+            <span class=" medium float-start H_bold bold pt-5">CORPORATE MAN</span>
+            <div class="corp_man img_box_1_xs container"> 
+                <br>
+                <div class="text_box_parent4_xs container">
+                    <p class="small text_box_child4" style="text-align: justify;">The Corporate Man demonstrates creative expression, but through his simplicity. His quiet confidence shows you don’t need to be the loudest in the room to make the biggest impact. Dependable, trustworthy, and committed, the Corporate Man looks for excellence both in himself, and his work. </p>
+                </div>
+            </div>
+            <div id="catalogue2" class="container-fluid parent_2_md_md pt-5">
+                <div class="corp_man2 grid_box_2_xs container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_xs container">
+                        <p class="small text_box_child2" style="text-align: justify;">Headed for a big day in the office, he opts for subtle tones with patterns, giving him confidence with subtle character to take on the day. He has an understated coolness and enjoys the rigours of his day, filled with management presentations. Knowing he has the evening to catch up with friends for a mini golf challenge and leave the day behind him.</p>
+                    </div>
+                </div>
+                <div class="corp_man3 grid_box_2_xs container mt-5">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_xs container">
+                        <p class="small text_box_child2" style="text-align: justify;">He is not confined to the office; wherever he chooses to work, he makes a real impact – with his made to measure suit reflecting his modest reliability. He opts for a grey midweight moderate padded windowpane super 130’s natural wool peaked lapel double breasted 2-piece suit paired with a white cotton twill shirt. (SWANK Line)</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue2" class="px-2 pt-5">
+                <div class="corp_man4 img_box_1_xs2 container-fluid">
+                    <br>
+                    <div class="text_box_parent4_xs_2 container">
+                        <p class="small text_box_child3">Over a morning meeting ahead of a big day, or a coffee between meetings, The Corporate Man is calm and in control. Despite his cool confidence, he is modest and humble – a true representation of today’s man. The navy soft tailored glen check super 120’s merino wool 2-piece double breasted suit paired with a spread collar navy/white striped cotton shirt is a staple for him. (SWANK Line)</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2_md_md pt-5">
+                <div class="corp_man5 grid_box_2_xs container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2_xs container">
+                        <p class="small text_box_child2">Walking through London in between work meetings to grab some lunch and do some retail therapy with colleagues to wind down and recharge. His navy suit shows and maintains his assertive look, fittingly representing his inner self, personality, and purpose through the day. Accessories by items that further reflect the subtle dynamism and presence of The Corporate Man.</p>
+                    </div>
+                </div>
+                <div class="corp_man6 grid_box_2_xs container mt-5">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2_xs container">
+                        <p class="small text_box_child2">Like Mr. Modish, he is confident in his skin yet understated to how he displays it. Like the weekender, he is there for his community, as a source of wisdom and assurance, acknowledging the imperfections that come with the journey he is embarking on.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
 
-    <div id="debonair_show" class="container pt-5">
-        <span class="bold bigg float-start H_bold ">DEBONAIR</span>
-        <div class="debonair img_box_1 container">
-            <br>
-            <div class="text_box_parent4 container">
-                <p class="small text_box_child4" style="text-align: justify;">Achievement, celebration, and elegance are the natural to the Debonair - the Groom, the high-flyer, the award-winner. The Debonair celebrates all the efforts the Marquess Man has put into being his best self. He emits elegance, glamour, and suave as he walks into the Galas, Balls, Weddings.</p>
-            </div>    
-        </div>
-        <div id="debonair" class="container parent_2 pt-5">
-            <div class="debonair grid_box_2 container">
-                <p class="bigg white_text H_bold">1</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">Our Debonair wears an oatmeal soft tailored super 150’s natural wool squared bottom cut black silk facing shawl lapel single breasted tuxedo jacket. His bowtie is self knot, and his shirt is a white spread collar cotton twill shirt with concealed buttons. He opts for black super 150’s natural wool tuxedo trousers with black silk strips. As he counts down the hours for his new life partner to walk down the aisle, you will notice his black Belgian loafers.] A Debonair Groom is an exceptional one.</p>
+        <div id="the_weekender_show" class="container pt-5 show_bg">
+            <span class="bold bigg float-start H_bold ">THE WEEKENDER</span>
+            <div class="weekender img_box_1 container">
+                <br>
+                <div class="text_box_parent4 container">
+                    <p class="small text_box_child4" style="text-align: justify;">Freedom is the priority for The Weekender. In both work and leisure, he expresses originality with his relaxed yet chic approach to style. Whether spending time with family, friends, or colleagues, the weekender displays creativity, and seeks a well-curated outfit for any trip away or event the weekend may throw his way. </p>
+                </div>   
+            </div>
+            <div id="catalogue2" class="container parent_2 pt-5">
+                <div class="weekender2 grid_box_2 container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">He pairs a dark brown soft tailored 2-piece super 120’s worsted wool double breasted suit paired with a turquoise cotton poplin classic collar shirt (SWANK Line), dressing it down with a pink dad cap. The type of outfit that can take you through a casual weekend, meeting friends in the city or for an eventful weekend date.</p>
+                    </div>
+                </div>
+                <div class="weekender3 grid_box_2 container">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">From a casual morning coffee, to a weekend spent abroad for a friend’s wedding, He moves effortlessly between work and events, with timeless garments in pleasant colours and a bold pattern to show his persona versatility. Drawing the presence and the bold character usually associated with Mr. Modish.</p>
+                    </div>
                 </div>
             </div>
-            <div class="debonair3 grid_box_2 container">
-                <p class="bigg white_text H_bold">2</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">The Debonair’s confidence is smooth, extravagant, and classy. While surrounded by those closest to him, he thanks to those who have supported him getting to where he is today – family, friends, and of course, his all-important suit.</p>
+            <div id="catalogue2" class="container-fluid pt-5">
+                <div class="weekender4 img_box_1 container-fluid">
+                    <br>
+                    <div class="text_box_parent3 container">
+                        <p class="small text_box_child3">The Weekender reminds you not to allow the challenges of life drain you out – positive energy that puts those around him at ease. He spends a warm weekend in the city in touring his favourite art galleries before heading for a spontaneous live jazz show with his significant other.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container parent_2 pt-5">
+                <div class="weekender5 grid_box_2 container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">Grabbing an iced coffee over a catch up with family, or stopping for a coffee on a summer city break, His taupe/white striped Cuban collar shirt brings out his social, laidback nature, making those around him feel at ease with his effortless, crisp appearance.</p>
+                    </div>
+                </div>
+                <div class="weekender6 grid_box_2 container">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">With his entrepreneurial mind, casual drinks often involve bouncing his latest ideas of friends and getting them excited about his plans. He can be seen in a brown/green unlined and unstructured linen/wool/silk blend single breasted jacket flowing with the relaxed atmosphere of his work life. His trousers are navy 100% linen paired with a white buttoned-down collar oxford cotton shirt.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="the_weekender_show_md" class="container-fluid pt-5 show_md">
+            <span class="bold bigg float-start H_bold ">THE WEEKENDER</span>
+            <div class="weekender img_box_1 container">
+                <br>
+                <div class="text_box_parent4 container">
+                    <p class="small text_box_child4" style="text-align: justify;">Freedom is the priority for The Weekender. In both work and leisure, he expresses originality with his relaxed yet chic approach to style. Whether spending time with family, friends, or colleagues, the weekender displays creativity, and seeks a well-curated outfit for any trip away or event the weekend may throw his way. </p>
+                </div>   
+            </div>
+            <div id="catalogue2" class="container-fluid parent_2 pt-5">
+                <div class="weekender2 grid_box_2_md container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">He pairs a dark brown soft tailored 2-piece super 120’s worsted wool double breasted suit paired with a turquoise cotton poplin classic collar shirt (SWANK Line), dressing it down with a pink dad cap. The type of outfit that can take you through a casual weekend, meeting friends in the city or for an eventful weekend date.</p>
+                    </div>
+                </div>
+                <div class="weekender3 grid_box_2_md container">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">From a casual morning coffee, to a weekend spent abroad for a friend’s wedding, He moves effortlessly between work and events, with timeless garments in pleasant colours and a bold pattern to show his persona versatility. Drawing the presence and the bold character usually associated with Mr. Modish.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue2" class="container-fluid pt-5">
+                <div class="weekender4 img_box_1_md container-fluid">
+                    <br>
+                    <div class="text_box_parent3 container">
+                        <p class="small text_box_child3">The Weekender reminds you not to allow the challenges of life drain you out – positive energy that puts those around him at ease. He spends a warm weekend in the city in touring his favourite art galleries before heading for a spontaneous live jazz show with his significant other.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2 pt-5">
+                <div class="weekender5 grid_box_2_md container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Grabbing an iced coffee over a catch up with family, or stopping for a coffee on a summer city break, His taupe/white striped Cuban collar shirt brings out his social, laidback nature, making those around him feel at ease with his effortless, crisp appearance.</p>
+                    </div>
+                </div>
+                <div class="weekender6 grid_box_2_md container">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">With his entrepreneurial mind, casual drinks often involve bouncing his latest ideas of friends and getting them excited about his plans. He can be seen in a brown/green unlined and unstructured linen/wool/silk blend single breasted jacket flowing with the relaxed atmosphere of his work life. His trousers are navy 100% linen paired with a white buttoned-down collar oxford cotton shirt.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="the_weekender_show_md_md" class="container-fluid pt-5 show_md_md">
+            <span class="bold bigg float-start H_bold ">THE WEEKENDER</span>
+            <div class="weekender img_box_1_md_md container">
+                <br>
+                <div class="text_box_parent4_md_md container">
+                    <p class="small text_box_child4" style="text-align: justify;">Freedom is the priority for The Weekender. In both work and leisure, he expresses originality with his relaxed yet chic approach to style. Whether spending time with family, friends, or colleagues, the weekender displays creativity, and seeks a well-curated outfit for any trip away or event the weekend may throw his way. </p>
+                </div>   
+            </div>
+            <div id="catalogue2" class="container-fluid parent_2_md_md pt-5">
+                <div class="weekender2 grid_box_2_md container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">He pairs a dark brown soft tailored 2-piece super 120’s worsted wool double breasted suit paired with a turquoise cotton poplin classic collar shirt (SWANK Line), dressing it down with a pink dad cap. The type of outfit that can take you through a casual weekend, meeting friends in the city or for an eventful weekend date.</p>
+                    </div>
+                </div>
+                <div class="weekender3 grid_box_2_md container mt-5">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">From a casual morning coffee, to a weekend spent abroad for a friend’s wedding, He moves effortlessly between work and events, with timeless garments in pleasant colours and a bold pattern to show his persona versatility. Drawing the presence and the bold character usually associated with Mr. Modish.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue2" class="container-fluid pt-5">
+                <div class="weekender4 img_box_1_md_md container-fluid">
+                    <br>
+                    <div class="text_box_parent3_md_md container">
+                        <p class="small text_box_child3">The Weekender reminds you not to allow the challenges of life drain you out – positive energy that puts those around him at ease. He spends a warm weekend in the city in touring his favourite art galleries before heading for a spontaneous live jazz show with his significant other.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2_md_md pt-5">
+                <div class="weekender5 grid_box_2_md container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Grabbing an iced coffee over a catch up with family, or stopping for a coffee on a summer city break, His taupe/white striped Cuban collar shirt brings out his social, laidback nature, making those around him feel at ease with his effortless, crisp appearance.</p>
+                    </div>
+                </div>
+                <div class="weekender6 grid_box_2_md container mt-5">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">With his entrepreneurial mind, casual drinks often involve bouncing his latest ideas of friends and getting them excited about his plans. He can be seen in a brown/green unlined and unstructured linen/wool/silk blend single breasted jacket flowing with the relaxed atmosphere of his work life. His trousers are navy 100% linen paired with a white buttoned-down collar oxford cotton shirt.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="the_weekender_show_sm" class="container-fluid pt-5 show_sm">
+            <span class="bold bigg float-start H_bold ">THE WEEKENDER</span>
+            <div class="weekender img_box_1_sm container">
+                <br>
+                <div class="text_box_parent4_sm container">
+                    <p class="small text_box_child4" style="text-align: justify;">Freedom is the priority for The Weekender. In both work and leisure, he expresses originality with his relaxed yet chic approach to style. Whether spending time with family, friends, or colleagues, the weekender displays creativity, and seeks a well-curated outfit for any trip away or event the weekend may throw his way. </p>
+                </div>   
+            </div>
+            <div id="catalogue2" class="container-fluid parent_2_md_md pt-5">
+                <div class="weekender2 grid_box_2_md container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">He pairs a dark brown soft tailored 2-piece super 120’s worsted wool double breasted suit paired with a turquoise cotton poplin classic collar shirt (SWANK Line), dressing it down with a pink dad cap. The type of outfit that can take you through a casual weekend, meeting friends in the city or for an eventful weekend date.</p>
+                    </div>
+                </div>
+                <div class="weekender3 grid_box_2_md container mt-5">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">From a casual morning coffee, to a weekend spent abroad for a friend’s wedding, He moves effortlessly between work and events, with timeless garments in pleasant colours and a bold pattern to show his persona versatility. Drawing the presence and the bold character usually associated with Mr. Modish.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue2" class="container-fluid pt-5">
+                <div class="weekender4 img_box_1_sm container-fluid">
+                    <br>
+                    <div class="text_box_parent4_sm container">
+                        <p class="small text_box_child3">The Weekender reminds you not to allow the challenges of life drain you out – positive energy that puts those around him at ease. He spends a warm weekend in the city in touring his favourite art galleries before heading for a spontaneous live jazz show with his significant other.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2_md_md pt-5">
+                <div class="weekender5 grid_box_2_md container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Grabbing an iced coffee over a catch up with family, or stopping for a coffee on a summer city break, His taupe/white striped Cuban collar shirt brings out his social, laidback nature, making those around him feel at ease with his effortless, crisp appearance.</p>
+                    </div>
+                </div>
+                <div class="weekender6 grid_box_2_md container mt-5">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">With his entrepreneurial mind, casual drinks often involve bouncing his latest ideas of friends and getting them excited about his plans. He can be seen in a brown/green unlined and unstructured linen/wool/silk blend single breasted jacket flowing with the relaxed atmosphere of his work life. His trousers are navy 100% linen paired with a white buttoned-down collar oxford cotton shirt.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="the_weekender_show_xs" class="container-fluid pt-5 show_xs">
+            <span class="bold medium float-start H_bold pt-2">THE WEEKENDER</span>
+            <div class="weekender img_box_1_xs container">
+                <br>
+                <div class="text_box_parent4_xs_2 container">
+                    <p class="small text_box_child4" style="text-align: justify;">Freedom is the priority for The Weekender. In both work and leisure, he expresses originality with his relaxed yet chic approach to style. Whether spending time with family, friends, or colleagues, the weekender displays creativity, and seeks a well-curated outfit for any trip away or event the weekend may throw his way. </p>
+                </div>   
+            </div>
+            <div id="catalogue2" class="container-fluid parent_2_md_md pt-5">
+                <div class="weekender2 grid_box_2_xs container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_xs container">
+                        <p class="small text_box_child2">He pairs a dark brown soft tailored 2-piece super 120’s worsted wool double breasted suit paired with a turquoise cotton poplin classic collar shirt (SWANK Line), dressing it down with a pink dad cap. The type of outfit that can take you through a casual weekend, meeting friends in the city or for an eventful weekend date.</p>
+                    </div>
+                </div>
+                <div class="weekender3 grid_box_2_xs container mt-5">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_xs container">
+                        <p class="small text_box_child2">From a casual morning coffee, to a weekend spent abroad for a friend’s wedding, He moves effortlessly between work and events, with timeless garments in pleasant colours and a bold pattern to show his persona versatility. Drawing the presence and the bold character usually associated with Mr. Modish.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue2" class="container-fluid pt-5">
+                <div class="weekender4 img_box_1_xs2c container-fluid">
+                    <br>
+                    <div class="text_box_parent4_xs_2 container">
+                        <p class="small text_box_child3">The Weekender reminds you not to allow the challenges of life drain you out – positive energy that puts those around him at ease. He spends a warm weekend in the city in touring his favourite art galleries before heading for a spontaneous live jazz show with his significant other.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2_md_md pt-5">
+                <div class="weekender5 grid_box_2_xs container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2_xs container">
+                        <p class="small text_box_child2">Grabbing an iced coffee over a catch up with family, or stopping for a coffee on a summer city break, His taupe/white striped Cuban collar shirt brings out his social, laidback nature, making those around him feel at ease with his effortless, crisp appearance.</p>
+                    </div>
+                </div>
+                <div class="weekender6 grid_box_2_xs container mt-5">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2_xs container">
+                        <p class="small text_box_child2">With his entrepreneurial mind, casual drinks often involve bouncing his latest ideas of friends and getting them excited about his plans. He can be seen in a brown/green unlined and unstructured linen/wool/silk blend single breasted jacket flowing with the relaxed atmosphere of his work life. His trousers are navy 100% linen paired with a white buttoned-down collar oxford cotton shirt.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modish_man_show" class="container pt-5 show_bg">
+            <span class="bold bigg float-start H_bold ">MODISH MAN</span>
+            <div class="modish_man img_box_1 container"> 
+                <br>
+                <div class="text_box_parent4 container">
+                    <p class="small text_box_child4" style="text-align: justify;">Only Mr Modish oozes personal freedom more than The Weekender. Mr Modish is daring and bold and ignores convention in a way that earns him respect as others envy his confidence to stand out and pull it off so well. Where he leads, few are likely to follow, as few can pull off his looks quite as well.</p>
+                </div>   
+            </div>
+            <div id="catalogue2" class="container parent_2 pt-5">
+                <div class="modish_man2 grid_box_2 container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">In a mustard yellow unstructured wool/silk peak lapel double breasted jacket. Paired with grey linen high-waisted trousers with signature Milanese Lapel Buttonhole and Butterfly Trousers Waist Side Adjusters, he naturally owns the streets. (SWANK Line)</p>
+                    </div>
+                </div>
+                <div class="modish_man3 grid_box_2 container">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">Special events, a wedding, or a night out, bring out the Modish Man and his daring inner personality – most conversations starting with a compliment of his outfit.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue2" class="container-fluid pt-5">
+                <div class="modish_man4 img_box_1 container-fluid">
+                    <br>
+                    <div class="text_box_parent3 container">
+                        <p class="small text_box_child3">The bold colour of his jacket and the strong contrast of his purple linen shirt is balanced effortlessly by his neutral toned grey trousers. If there was a persona that symbolises ‘to calculatedly wear our heart on our sleeve’, it will be Mr Modish.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container parent_2 pt-5">
+                <div class="modish_man5 grid_box_2 container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">The Modish Man turns heads, in a humble manner. His orange soft tailored linen/wool basketweave 2-piece suit turns heads as people stop and stare at his daring yet genius style. (SWANK Line)</p>
+                    </div>
+                </div>
+                <div class="modish_man6 grid_box_2 container">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">With a lovat/white linen/cotton mandarin collar striped shirt, his outfit creates a strong statement. There is a Modish Man in every Marquess Man. (SWANK Line)</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="modish_man_show_md" class="container-fluid pt-5 show_md">
+            <span class="bold bigg float-start H_bold ">MODISH MAN</span>
+            <div class="modish_man img_box_1 container-fluid"> 
+                <br>
+                <div class="text_box_parent4 container">
+                    <p class="small text_box_child4" style="text-align: justify;">Only Mr Modish oozes personal freedom more than The Weekender. Mr Modish is daring and bold and ignores convention in a way that earns him respect as others envy his confidence to stand out and pull it off so well. Where he leads, few are likely to follow, as few can pull off his looks quite as well.</p>
+                </div>   
+            </div>
+            <div id="catalogue2" class="container-fluid parent_2 pt-5">
+                <div class="modish_man2 grid_box_2_md container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">In a mustard yellow unstructured wool/silk peak lapel double breasted jacket. Paired with grey linen high-waisted trousers with signature Milanese Lapel Buttonhole and Butterfly Trousers Waist Side Adjusters, he naturally owns the streets. (SWANK Line)</p>
+                    </div>
+                </div>
+                <div class="modish_man3 grid_box_2_md container">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Special events, a wedding, or a night out, bring out the Modish Man and his daring inner personality – most conversations starting with a compliment of his outfit.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue2" class="container-fluid pt-5">
+                <div class="modish_man4 img_box_1_md container-fluid">
+                    <br>
+                    <div class="text_box_parent3 container">
+                        <p class="small text_box_child3">The bold colour of his jacket and the strong contrast of his purple linen shirt is balanced effortlessly by his neutral toned grey trousers. If there was a persona that symbolises ‘to calculatedly wear our heart on our sleeve’, it will be Mr Modish.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2 pt-5">
+                <div class="modish_man5 grid_box_2_md container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">The Modish Man turns heads, in a humble manner. His orange soft tailored linen/wool basketweave 2-piece suit turns heads as people stop and stare at his daring yet genius style. (SWANK Line)</p>
+                    </div>
+                </div>
+                <div class="modish_man6 grid_box_2_md container">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">With a lovat/white linen/cotton mandarin collar striped shirt, his outfit creates a strong statement. There is a Modish Man in every Marquess Man. (SWANK Line)</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="modish_man_show_md_md" class="container-fluid pt-5 show_md_md">
+            <span class="bold bigg float-start H_bold ">MODISH MAN</span>
+            <div class="modish_man img_box_1_md_md container-fluid"> 
+                <br>
+                <div class="text_box_parent4_md_md container">
+                    <p class="small text_box_child4" style="text-align: justify;">Only Mr Modish oozes personal freedom more than The Weekender. Mr Modish is daring and bold and ignores convention in a way that earns him respect as others envy his confidence to stand out and pull it off so well. Where he leads, few are likely to follow, as few can pull off his looks quite as well.</p>
+                </div>   
+            </div>
+            <div id="catalogue2" class="container-fluid parent_2_md_md pt-5">
+                <div class="modish_man2 grid_box_2_md container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">In a mustard yellow unstructured wool/silk peak lapel double breasted jacket. Paired with grey linen high-waisted trousers with signature Milanese Lapel Buttonhole and Butterfly Trousers Waist Side Adjusters, he naturally owns the streets. (SWANK Line)</p>
+                    </div>
+                </div>
+                <div class="modish_man3 grid_box_2_md container mt-5">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Special events, a wedding, or a night out, bring out the Modish Man and his daring inner personality – most conversations starting with a compliment of his outfit.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue2" class="container-fluid pt-5">
+                <div class="modish_man4 img_box_1_md_md container-fluid">
+                    <br>
+                    <div class="text_box_parent3_md_md container">
+                        <p class="small text_box_child3">The bold colour of his jacket and the strong contrast of his purple linen shirt is balanced effortlessly by his neutral toned grey trousers. If there was a persona that symbolises ‘to calculatedly wear our heart on our sleeve’, it will be Mr Modish.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2_md_md pt-5">
+                <div class="modish_man5 grid_box_2_md container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">The Modish Man turns heads, in a humble manner. His orange soft tailored linen/wool basketweave 2-piece suit turns heads as people stop and stare at his daring yet genius style. (SWANK Line)</p>
+                    </div>
+                </div>
+                <div class="modish_man6 grid_box_2_md container mt-5">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">With a lovat/white linen/cotton mandarin collar striped shirt, his outfit creates a strong statement. There is a Modish Man in every Marquess Man. (SWANK Line)</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="modish_man_show_sm" class="container-fluid pt-5 show_sm">
+            <span class="bold bigg float-start H_bold ">MODISH MAN</span>
+            <div class="modish_man img_box_1_sm container-fluid"> 
+                <br>
+                <div class="text_box_parent4_sm container">
+                    <p class="small text_box_child4" style="text-align: justify;">Only Mr Modish oozes personal freedom more than The Weekender. Mr Modish is daring and bold and ignores convention in a way that earns him respect as others envy his confidence to stand out and pull it off so well. Where he leads, few are likely to follow, as few can pull off his looks quite as well.</p>
+                </div>   
+            </div>
+            <div id="catalogue2" class="container-fluid parent_2_md_md pt-5">
+                <div class="modish_man2 grid_box_2_md container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">In a mustard yellow unstructured wool/silk peak lapel double breasted jacket. Paired with grey linen high-waisted trousers with signature Milanese Lapel Buttonhole and Butterfly Trousers Waist Side Adjusters, he naturally owns the streets. (SWANK Line)</p>
+                    </div>
+                </div>
+                <div class="modish_man3 grid_box_2_md container mt-5">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Special events, a wedding, or a night out, bring out the Modish Man and his daring inner personality – most conversations starting with a compliment of his outfit.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue2" class="container-fluid pt-5">
+                <div class="modish_man4 img_box_1_sm container-fluid">
+                    <br>
+                    <div class="text_box_parent4_sm container">
+                        <p class="small text_box_child3">The bold colour of his jacket and the strong contrast of his purple linen shirt is balanced effortlessly by his neutral toned grey trousers. If there was a persona that symbolises ‘to calculatedly wear our heart on our sleeve’, it will be Mr Modish.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2_md_md pt-5">
+                <div class="modish_man5 grid_box_2_md container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">The Modish Man turns heads, in a humble manner. His orange soft tailored linen/wool basketweave 2-piece suit turns heads as people stop and stare at his daring yet genius style. (SWANK Line)</p>
+                    </div>
+                </div>
+                <div class="modish_man6 grid_box_2_md container mt-5">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">With a lovat/white linen/cotton mandarin collar striped shirt, his outfit creates a strong statement. There is a Modish Man in every Marquess Man. (SWANK Line)</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="modish_man_show_xs" class="container-fluid pt-5 show_xs">
+            <span class="bold medium float-start H_bold ">MODISH MAN</span>
+            <div class="modish_man img_box_1_xsr container-fluid"> 
+                <br>
+                <div class="text_box_parent4_xs container">
+                    <p class="small text_box_child4" style="text-align: justify;">Only Mr Modish oozes personal freedom more than The Weekender. Mr Modish is daring and bold and ignores convention in a way that earns him respect as others envy his confidence to stand out and pull it off so well. Where he leads, few are likely to follow, as few can pull off his looks quite as well.</p>
+                </div>   
+            </div>
+            <div id="catalogue2" class="container-fluid parent_2_md_md pt-5">
+                <div class="modish_man2 grid_box_2_xs container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_xs container">
+                        <p class="small text_box_child2">In a mustard yellow unstructured wool/silk peak lapel double breasted jacket. Paired with grey linen high-waisted trousers with signature Milanese Lapel Buttonhole and Butterfly Trousers Waist Side Adjusters, he naturally owns the streets. (SWANK Line)</p>
+                    </div>
+                </div>
+                <div class="modish_man3 grid_box_2_xs container mt-5">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_xs container">
+                        <p class="small text_box_child2">Special events, a wedding, or a night out, bring out the Modish Man and his daring inner personality – most conversations starting with a compliment of his outfit.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue2" class=" pt-5">
+                <div class="modish_man4 img_box_1_xs2c container-fluid">
+                    <br>
+                    <div class="text_box_parent4_xs_2 container">
+                        <p class="small text_box_child3">The bold colour of his jacket and the strong contrast of his purple linen shirt is balanced effortlessly by his neutral toned grey trousers. If there was a persona that symbolises ‘to calculatedly wear our heart on our sleeve’, it will be Mr Modish.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2_md_md pt-5">
+                <div class="modish_man5 grid_box_2_xs container">
+                    <p class="bigg white_text">1</p>
+                    <div class="text_box_parent2_xs container">
+                        <p class="small text_box_child2">The Modish Man turns heads, in a humble manner. His orange soft tailored linen/wool basketweave 2-piece suit turns heads as people stop and stare at his daring yet genius style. (SWANK Line)</p>
+                    </div>
+                </div>
+                <div class="modish_man6 grid_box_2_xs container mt-5">
+                    <p class="bigg white_text">2</p>
+                    <div class="text_box_parent2_xs container">
+                        <p class="small text_box_child2">With a lovat/white linen/cotton mandarin collar striped shirt, his outfit creates a strong statement. There is a Modish Man in every Marquess Man. (SWANK Line)</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div id="debonair_show" class="container pt-5 show_bg">
+            <span class="bold bigg float-start H_bold ">DEBONAIR</span>
+            <div class="debonair img_box_1 container">
+                <br>
+                <div class="text_box_parent4 container">
+                    <p class="small text_box_child4" style="text-align: justify;">Achievement, celebration, and elegance are the natural to the Debonair - the Groom, the high-flyer, the award-winner. The Debonair celebrates all the efforts the Marquess Man has put into being his best self. He emits elegance, glamour, and suave as he walks into the Galas, Balls, Weddings.</p>
+                </div>    
+            </div>
+            <div id="debonair" class="container parent_2 pt-5">
+                <div class="debonairr grid_box_2 container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">Our Debonair wears an oatmeal soft tailored super 150’s natural wool squared bottom cut black silk facing shawl lapel single breasted tuxedo jacket. His bowtie is self knot, and his shirt is a white spread collar cotton twill shirt with concealed buttons. He opts for black super 150’s natural wool tuxedo trousers with black silk strips. As he counts down the hours for his new life partner to walk down the aisle, you will notice his black Belgian loafers.] A Debonair Groom is an exceptional one.</p>
+                    </div>
+                </div>
+                <div class="debonair3 grid_box_2 container">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">The Debonair’s confidence is smooth, extravagant, and classy. While surrounded by those closest to him, he thanks to those who have supported him getting to where he is today – family, friends, and of course, his all-important suit.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container parent_2 pt-5">
+                <div class="debonair4 grid_box_2 container">
+                    <p class="bigg white_text">3</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">Celebrating a big day at a black-tie award ceremony, he will wear a navy dotted stripe soft tailored super 110’s natural wool black grosgrain silk facing peak lapel double breasted tuxedo jacket. His tuxedo trousers will be a black natural wool with black grosgrain silk stripe and a cotton twill marcella front bib tuxedo shirt with stud openings to accommodate his ornament studs. (Swank Line)</p>
+                    </div>
+                </div>
+                <div class="debonair5 grid_box_2 container">
+                    <p class="bigg white_text">4</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">The Debonair celebrates all his greatest achievements – and well, you look your best when you’re celebrating…</p>
+                    </div>
+                </div> 
+                <div class="debonair6 grid_box_2 container">
+                    <p class="bigg white_text">5</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">In the Debonair you find the tenacious attributes of the Corporate Man, the calm air of the Weekender, and the unique style of Mr Modish.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="debonair_show_md" class="container-fluid pt-5 show_md">
+            <span class="bold bigg float-start H_bold ">DEBONAIR</span>
+            <div class="debonair img_box_1 container">
+                <br>
+                <div class="text_box_parent4 container">
+                    <p class="small text_box_child4" style="text-align: justify;">Achievement, celebration, and elegance are the natural to the Debonair - the Groom, the high-flyer, the award-winner. The Debonair celebrates all the efforts the Marquess Man has put into being his best self. He emits elegance, glamour, and suave as he walks into the Galas, Balls, Weddings.</p>
+                </div>    
+            </div>
+            <div id="debonair" class="container-fluid parent_2 pt-5">
+                <div class="debonairr grid_box_2_md container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Our Debonair wears an oatmeal soft tailored super 150’s natural wool squared bottom cut black silk facing shawl lapel single breasted tuxedo jacket. His bowtie is self knot, and his shirt is a white spread collar cotton twill shirt with concealed buttons. He opts for black super 150’s natural wool tuxedo trousers with black silk strips. As he counts down the hours for his new life partner to walk down the aisle, you will notice his black Belgian loafers.] A Debonair Groom is an exceptional one.</p>
+                    </div>
+                </div>
+                <div class="debonair3 grid_box_2_md container">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">The Debonair’s confidence is smooth, extravagant, and classy. While surrounded by those closest to him, he thanks to those who have supported him getting to where he is today – family, friends, and of course, his all-important suit.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2 pt-5">
+                <div class="debonair4 grid_box_2_md container">
+                    <p class="bigg white_text">3</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Celebrating a big day at a black-tie award ceremony, he will wear a navy dotted stripe soft tailored super 110’s natural wool black grosgrain silk facing peak lapel double breasted tuxedo jacket. His tuxedo trousers will be a black natural wool with black grosgrain silk stripe and a cotton twill marcella front bib tuxedo shirt with stud openings to accommodate his ornament studs. (Swank Line)</p>
+                    </div>
+                </div>
+                <div class="debonair5 grid_box_2_md container">
+                    <p class="bigg white_text">4</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">The Debonair celebrates all his greatest achievements – and well, you look your best when you’re celebrating…</p>
+                    </div>
+                </div> 
+                <div class="debonair6 grid_box_2 container">
+                    <p class="bigg white_text">5</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">In the Debonair you find the tenacious attributes of the Corporate Man, the calm air of the Weekender, and the unique style of Mr Modish.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="debonair_show_md_md" class="container-fluid pt-5 show_md_md">
+            <span class="bold bigg float-start H_bold ">DEBONAIR</span>
+            <div class="debonair img_box_1_md_md container">
+                <br>
+                <div class="text_box_parent4_md_md container">
+                    <p class="small text_box_child4" style="text-align: justify;">Achievement, celebration, and elegance are the natural to the Debonair - the Groom, the high-flyer, the award-winner. The Debonair celebrates all the efforts the Marquess Man has put into being his best self. He emits elegance, glamour, and suave as he walks into the Galas, Balls, Weddings.</p>
+                </div>    
+            </div>
+            <div id="debonair" class="container-fluid parent_2_md_md pt-5">
+                <div class="debonairr grid_box_2_md container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Our Debonair wears an oatmeal soft tailored super 150’s natural wool squared bottom cut black silk facing shawl lapel single breasted tuxedo jacket. His bowtie is self knot, and his shirt is a white spread collar cotton twill shirt with concealed buttons. He opts for black super 150’s natural wool tuxedo trousers with black silk strips. As he counts down the hours for his new life partner to walk down the aisle, you will notice his black Belgian loafers.] A Debonair Groom is an exceptional one.</p>
+                    </div>
+                </div>
+                <div class="debonair3 grid_box_2_md container mt-5">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">The Debonair’s confidence is smooth, extravagant, and classy. While surrounded by those closest to him, he thanks to those who have supported him getting to where he is today – family, friends, and of course, his all-important suit.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2_md_md pt-5">
+                <div class="debonair4 grid_box_2_md container">
+                    <p class="bigg white_text">3</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Celebrating a big day at a black-tie award ceremony, he will wear a navy dotted stripe soft tailored super 110’s natural wool black grosgrain silk facing peak lapel double breasted tuxedo jacket. His tuxedo trousers will be a black natural wool with black grosgrain silk stripe and a cotton twill marcella front bib tuxedo shirt with stud openings to accommodate his ornament studs. (Swank Line)</p>
+                    </div>
+                </div>
+                <div class="debonair5 grid_box_2_md container mt-5">
+                    <p class="bigg white_text">4</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">The Debonair celebrates all his greatest achievements – and well, you look your best when you’re celebrating…</p>
+                    </div>
+                </div> 
+                <div class="debonair6 grid_box_2 container mt-5">
+                    <p class="bigg white_text">5</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">In the Debonair you find the tenacious attributes of the Corporate Man, the calm air of the Weekender, and the unique style of Mr Modish.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="debonair_show_sm" class="container-fluid pt-5 show_sm">
+            <span class="bold bigg float-start H_bold ">DEBONAIR</span>
+            <div class="debonair img_box_1_sm container">
+                <br>
+                <div class="text_box_parent4_sm container">
+                    <p class="small text_box_child4" style="text-align: justify;">Achievement, celebration, and elegance are the natural to the Debonair - the Groom, the high-flyer, the award-winner. The Debonair celebrates all the efforts the Marquess Man has put into being his best self. He emits elegance, glamour, and suave as he walks into the Galas, Balls, Weddings.</p>
+                </div>    
+            </div>
+            <div id="debonair" class="container-fluid parent_2_md_md pt-5">
+                <div class="debonairr grid_box_2_md container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Our Debonair wears an oatmeal soft tailored super 150’s natural wool squared bottom cut black silk facing shawl lapel single breasted tuxedo jacket. His bowtie is self knot, and his shirt is a white spread collar cotton twill shirt with concealed buttons. He opts for black super 150’s natural wool tuxedo trousers with black silk strips. As he counts down the hours for his new life partner to walk down the aisle, you will notice his black Belgian loafers.] A Debonair Groom is an exceptional one.</p>
+                    </div>
+                </div>
+                <div class="debonair3 grid_box_2_md container mt-5">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">The Debonair’s confidence is smooth, extravagant, and classy. While surrounded by those closest to him, he thanks to those who have supported him getting to where he is today – family, friends, and of course, his all-important suit.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2_md_md pt-5">
+                <div class="debonair4 grid_box_2_md container">
+                    <p class="bigg white_text">3</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">Celebrating a big day at a black-tie award ceremony, he will wear a navy dotted stripe soft tailored super 110’s natural wool black grosgrain silk facing peak lapel double breasted tuxedo jacket. His tuxedo trousers will be a black natural wool with black grosgrain silk stripe and a cotton twill marcella front bib tuxedo shirt with stud openings to accommodate his ornament studs. (Swank Line)</p>
+                    </div>
+                </div>
+                <div class="debonair5 grid_box_2_md container mt-5">
+                    <p class="bigg white_text">4</p>
+                    <div class="text_box_parent2_md container">
+                        <p class="small text_box_child2">The Debonair celebrates all his greatest achievements – and well, you look your best when you’re celebrating…</p>
+                    </div>
+                </div> 
+                <div class="debonair6 grid_box_2 container mt-5">
+                    <p class="bigg white_text">5</p>
+                    <div class="text_box_parent2 container">
+                        <p class="small text_box_child2">In the Debonair you find the tenacious attributes of the Corporate Man, the calm air of the Weekender, and the unique style of Mr Modish.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="debonair_show_xs" class="container-fluid pt-5 show_xs">
+            <span class="bold medium float-start H_bold ">DEBONAIR</span>
+            <div class="debonair img_box_1_xs container">
+                <br>
+                <div class="text_box_parent4_xs container">
+                    <p class="small text_box_child4" style="text-align: justify;">Achievement, celebration, and elegance are the natural to the Debonair - the Groom, the high-flyer, the award-winner. The Debonair celebrates all the efforts the Marquess Man has put into being his best self. He emits elegance, glamour, and suave as he walks into the Galas, Balls, Weddings.</p>
+                </div>    
+            </div>
+            <div id="debonair" class="container-fluid parent_2_md_md pt-5">
+                <div class="debonairr grid_box_2_xs container">
+                    <p class="bigg white_text H_bold">1</p>
+                    <div class="text_box_parent2_xsu container">
+                        <p class="small text_box_child2">Our Debonair wears an oatmeal soft tailored super 150’s natural wool squared bottom cut black silk facing shawl lapel single breasted tuxedo jacket. His bowtie is self knot, and his shirt is a white spread collar cotton twill shirt with concealed buttons. He opts for black super 150’s natural wool tuxedo trousers with black silk strips. As he counts down the hours for his new life partner to walk down the aisle, you will notice his black Belgian loafers.] A Debonair Groom is an exceptional one.</p>
+                    </div>
+                </div>
+                <div class="debonair3 grid_box_2_xs container mt-5">
+                    <p class="bigg white_text H_bold">2</p>
+                    <div class="text_box_parent2_xs container">
+                        <p class="small text_box_child2">The Debonair’s confidence is smooth, extravagant, and classy. While surrounded by those closest to him, he thanks to those who have supported him getting to where he is today – family, friends, and of course, his all-important suit.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue3" class="container-fluid parent_2_md_md pt-5">
+                <div class="debonair4 grid_box_2_xs container">
+                    <p class="bigg white_text">3</p>
+                    <div class="text_box_parent2_xsu container">
+                        <p class="small text_box_child2">Celebrating a big day at a black-tie award ceremony, he will wear a navy dotted stripe soft tailored super 110’s natural wool black grosgrain silk facing peak lapel double breasted tuxedo jacket. His tuxedo trousers will be a black natural wool with black grosgrain silk stripe and a cotton twill marcella front bib tuxedo shirt with stud openings to accommodate his ornament studs. (Swank Line)</p>
+                    </div>
+                </div>
+                <div class="debonair5 grid_box_2_xs container mt-5">
+                    <p class="bigg white_text">4</p>
+                    <div class="text_box_parent2_xsd container">
+                        <p class="small text_box_child2">The Debonair celebrates all his greatest achievements – and well, you look your best when you’re celebrating…</p>
+                    </div>
+                </div> 
+                <div class="debonair6 grid_box_2_xs container mt-5">
+                    <p class="bigg white_text">5</p>
+                    <div class="text_box_parent2_xsd container">
+                        <p class="small text_box_child2">In the Debonair you find the tenacious attributes of the Corporate Man, the calm air of the Weekender, and the unique style of Mr Modish.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="form" class="container pt-5 mt-5 show_bg">
+            <div class="d-flex justify-content-between">
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="catalogue3" class="container parent_2 pt-5">
-            <div class="debonair4 grid_box_2 container">
-                <p class="bigg white_text">3</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">Celebrating a big day at a black-tie award ceremony, he will wear a navy dotted stripe soft tailored super 110’s natural wool black grosgrain silk facing peak lapel double breasted tuxedo jacket. His tuxedo trousers will be a black natural wool with black grosgrain silk stripe and a cotton twill marcella front bib tuxedo shirt with stud openings to accommodate his ornament studs. (Swank Line)</p>
+        <div id="form" class="container pt-5 mt-5 show_md">
+            <div class="d-flex justify-content-between">
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div style="width: 20px;"></div>
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
                 </div>
             </div>
-            <div class="debonair5 grid_box_2 container">
-                <p class="bigg white_text">4</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">The Debonair celebrates all his greatest achievements – and well, you look your best when you’re celebrating…</p>
-                </div>
-            </div> 
-            <div class="debonair6 grid_box_2 container">
-                <p class="bigg white_text">5</p>
-                <div class="text_box_parent2 container">
-                    <p class="small text_box_child2">In the Debonair you find the tenacious attributes of the Corporate Man, the calm air of the Weekender, and the unique style of Mr Modish.</p>
-                </div>
-            </div> 
         </div>
+        <div id="form" class="container pt-5 mt-5 show_md_md">
+            <div class="d-flex justify-content-between">
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div style="width: 20px;"></div>
+                <div class="form-box container px-5 pt-5">
+                    <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-4">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form" class="container-fluid pt-5 mt-5 show_sm">
+            <div class="d-flex justify-content-between">
+                <div class="form-box_sm container px-5 pt-5">
+                    <h3 class="bold pb-5 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div style="width: 20px;"></div>
+                <div class="form-box_sm container px-5 pt-5">
+                    <h3 class="bold pb-5 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form" class="container-fluid pt-5 mt-5 show_xs">
+            <div>
+                <div class="form-box_xs container px-5 pt-5">
+                    <h3 class="bold pb-5 form-text-header">JOIN THE COMMUNITY</h3>
+                    <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <input type="text" class="form-control custom_txtf">
+                        <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div class="form-box_xs container px-5 pt-5 mt-5">
+                    <h3 class="bold pb-5 form-text-header">F.A.Qs</h3>
+                    <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
+                    <div class="input-group mb-3 mt-5">
+                        <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container center mt-5 pt-5">
+            <i class="fa-brands fa-instagram fa-bounce px-2"></i>
+            <i class="fa-brands fa-square-facebook fa-bounce px-2"></i>
+            <i class="fa-brands fa-square-twitter fa-bounce px-2"></i>
+            <i class="fa-brands fa-linkedin fa-bounce px-2"></i>
+        </div>
+        <div class="container center mt-3 pt-3">
+            <span><a href="./clauses.html" class="text_link2 px-4">CLAUSES</a></span>
+            <span><a href="./faq.html" class="text_link2 px-4">FAQ</a></span>
+        </div>
+        <div class="container center mt-3 pt-1">
+            <span>Copyright © 2023. Marquess London. All Rights Reserved</span>
+        </div>
+        830*332
     </div>
-    <div id="form" class="container pt-5 mt-5">
-        <div class="d-flex justify-content-evenly">
-            <div class="form-box container px-5 pt-5">
-                <h3 class="bold pb-3 form-text-header">JOIN THE COMMUNITY</h3>
-                <p class="form-text pt-4">Stay connected with the Marquess London Story. Sign up to receive exclusive news, updates and follow the community’s journey.</p>
-                <div class="input-group mb-3 mt-4">
-                    <input type="text" class="form-control custom_txtf">
-                    <button class="btn custom_btn_banner" type="button" id="button-addon2">Subscribe</button>
-                </div>
-            </div>
-            <div class="form-box container px-5 pt-5">
-                <h3 class="bold pb-3 form-text-header">F.A.Qs</h3>
-                <p class="form-text pt-4">Got any questions? We are here to answer! Read more to explore some frequently asked questions about our products and services.</p>
-                <div class="input-group mb-3 mt-4">
-                    <button class="btn custom_btn custom_txtf" type="button" id="button-addon2">Read More</button>
-                </div>
-            </div>
-        </div>
-    </div>830*332
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
     <script>
         function toggleweekender() {
@@ -317,6 +1254,122 @@
         }
         myClock2.style.display = 'none';
     }
+        function toggleweekender_md() {
+        // get the clock
+        var myClock = document.getElementById('the_weekender_show_md');
+        var myClock2 = document.getElementById('corporate_man_show_md');
+        var myClock3 = document.getElementById('modish_man_show_md');
+        var myClock4 = document.getElementById('debonair_show_md');
+
+        var displaySetting = myClock.style.display;
+
+        var clockButton = document.getElementById('the_weekender_md');
+        var clockButton2 = document.getElementById('corporate_man_md');
+        var clockButton3 = document.getElementById('modish_man_md');
+        var clockButton4 = document.getElementById('debonair_md');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        } else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+    }
+        function toggleweekender_md_md() {
+        // get the clock
+        var myClock = document.getElementById('the_weekender_show_md_md');
+        var myClock2 = document.getElementById('corporate_man_show_md_md');
+        var myClock3 = document.getElementById('modish_man_show_md_md');
+        var myClock4 = document.getElementById('debonair_show_md_md');
+
+        var displaySetting = myClock.style.display;
+
+        var clockButton = document.getElementById('the_weekender_md_md');
+        var clockButton2 = document.getElementById('corporate_man_md_md');
+        var clockButton3 = document.getElementById('modish_man_md_md');
+        var clockButton4 = document.getElementById('debonair_md_md');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        } else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+    }
+        function toggleweekender_sm() {
+        // get the clock
+        var myClock = document.getElementById('the_weekender_show_sm');
+        var myClock2 = document.getElementById('corporate_man_show_sm');
+        var myClock3 = document.getElementById('modish_man_show_sm');
+        var myClock4 = document.getElementById('debonair_show_sm');
+
+        var displaySetting = myClock.style.display;
+
+        var clockButton = document.getElementById('the_weekender_sm');
+        var clockButton2 = document.getElementById('corporate_man_sm');
+        var clockButton3 = document.getElementById('modish_man_sm');
+        var clockButton4 = document.getElementById('debonair_sm');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        } else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+    }
+    function toggleweekender_xs() {
+        // get the clock
+        var myClock = document.getElementById('the_weekender_show_xs');
+        var myClock2 = document.getElementById('corporate_man_show_xs');
+        var myClock3 = document.getElementById('modish_man_show_xs');
+        var myClock4 = document.getElementById('debonair_show_xs');
+
+        var displaySetting = myClock.style.display;
+
+        var clockButton = document.getElementById('the_weekender_xs');
+        var clockButton2 = document.getElementById('corporate_man_xs');
+        var clockButton3 = document.getElementById('modish_man_xs');
+        var clockButton4 = document.getElementById('debonair_xs');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        } else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+    }
         function togglemodish() {
         // get the clock
         var myClock = document.getElementById('modish_man_show');
@@ -330,6 +1383,130 @@
         var clockButton2 = document.getElementById('corporate_man');
         var clockButton3 = document.getElementById('the_weekender');
         var clockButton4 = document.getElementById('debonair');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        } else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+        myClock3.style.display = 'none';
+        myClock4.style.display = 'none';
+    }
+        function togglemodish_md() {
+        // get the clock
+        var myClock = document.getElementById('modish_man_show_md');
+        var myClock2 = document.getElementById('corporate_man_show_md');
+        var myClock3 = document.getElementById('the_weekender_show_md');
+        var myClock4 = document.getElementById('debonair_show_md');
+
+        var displaySetting = myClock.style.display;
+
+        var clockButton = document.getElementById('modish_man_md');
+        var clockButton2 = document.getElementById('corporate_man_md');
+        var clockButton3 = document.getElementById('the_weekender_md');
+        var clockButton4 = document.getElementById('debonair_md');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        } else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+        myClock3.style.display = 'none';
+        myClock4.style.display = 'none';
+    }
+        function togglemodish_md_md() {
+        // get the clock
+        var myClock = document.getElementById('modish_man_show_md_md');
+        var myClock2 = document.getElementById('corporate_man_show_md_md');
+        var myClock3 = document.getElementById('the_weekender_show_md_md');
+        var myClock4 = document.getElementById('debonair_show_md_md');
+
+        var displaySetting = myClock.style.display;
+
+        var clockButton = document.getElementById('modish_man_md_md');
+        var clockButton2 = document.getElementById('corporate_man_md_md');
+        var clockButton3 = document.getElementById('the_weekender_md_md');
+        var clockButton4 = document.getElementById('debonair_md_md');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        } else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+        myClock3.style.display = 'none';
+        myClock4.style.display = 'none';
+    }
+        function togglemodish_sm() {
+        // get the clock
+        var myClock = document.getElementById('modish_man_show_sm');
+        var myClock2 = document.getElementById('corporate_man_show_sm');
+        var myClock3 = document.getElementById('the_weekender_show_sm');
+        var myClock4 = document.getElementById('debonair_show_sm');
+
+        var displaySetting = myClock.style.display;
+
+        var clockButton = document.getElementById('modish_man_sm');
+        var clockButton2 = document.getElementById('corporate_man_sm');
+        var clockButton3 = document.getElementById('the_weekender_sm');
+        var clockButton4 = document.getElementById('debonair_sm');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        } else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+        myClock3.style.display = 'none';
+        myClock4.style.display = 'none';
+    }
+    function togglemodish_xs() {
+        // get the clock
+        var myClock = document.getElementById('modish_man_show_xs');
+        var myClock2 = document.getElementById('corporate_man_show_xs');
+        var myClock3 = document.getElementById('the_weekender_show_xs');
+        var myClock4 = document.getElementById('debonair_show_xs');
+
+        var displaySetting = myClock.style.display;
+
+        var clockButton = document.getElementById('modish_man_xs');
+        var clockButton2 = document.getElementById('corporate_man_xs');
+        var clockButton3 = document.getElementById('the_weekender_xs');
+        var clockButton4 = document.getElementById('debonair_xs');
         clockButton.classList.remove('grid_box_cat');
         clockButton.classList.add('grid_box_cat_current');
         clockButton2.classList.remove('grid_box_cat_current');
@@ -379,6 +1556,130 @@
         myClock3.style.display = 'none';
         myClock4.style.display = 'none';
     }
+        function toggledebonair_md() {
+        // get the clock
+        var myClock = document.getElementById('debonair_show_md');
+        var myClock2 = document.getElementById('corporate_man_show_md');
+        var myClock3 = document.getElementById('modish_man_show_md');
+        var myClock4 = document.getElementById('the_weekender_show_md');
+
+        var displaySetting = myClock.style.display;
+
+        var clockButton = document.getElementById('debonair_md');
+        var clockButton2 = document.getElementById('corporate_man_md');
+        var clockButton3 = document.getElementById('modish_man_md');
+        var clockButton4 = document.getElementById('the_weekender_md');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        } else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+        myClock3.style.display = 'none';
+        myClock4.style.display = 'none';
+    }
+        function toggledebonair_md_md() {
+        // get the clock
+        var myClock = document.getElementById('debonair_show_md_md');
+        var myClock2 = document.getElementById('corporate_man_show_md_md');
+        var myClock3 = document.getElementById('modish_man_show_md_md');
+        var myClock4 = document.getElementById('the_weekender_show_md_md');
+
+        var displaySetting = myClock.style.display;
+
+        var clockButton = document.getElementById('debonair_md_md');
+        var clockButton2 = document.getElementById('corporate_man_md_md');
+        var clockButton3 = document.getElementById('modish_man_md_md');
+        var clockButton4 = document.getElementById('the_weekender_md_md');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        } else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+        myClock3.style.display = 'none';
+        myClock4.style.display = 'none';
+    }
+        function toggledebonair_sm() {
+        // get the clock
+        var myClock = document.getElementById('debonair_show_sm');
+        var myClock2 = document.getElementById('corporate_man_show_sm');
+        var myClock3 = document.getElementById('modish_man_show_sm');
+        var myClock4 = document.getElementById('the_weekender_show_sm');
+
+        var displaySetting = myClock.style.display;
+
+        var clockButton = document.getElementById('debonair_sm');
+        var clockButton2 = document.getElementById('corporate_man_sm');
+        var clockButton3 = document.getElementById('modish_man_sm');
+        var clockButton4 = document.getElementById('the_weekender_sm');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        } else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+        myClock3.style.display = 'none';
+        myClock4.style.display = 'none';
+    }
+    function toggledebonair_xs() {
+        // get the clock
+        var myClock = document.getElementById('debonair_show_xs');
+        var myClock2 = document.getElementById('corporate_man_show_xs');
+        var myClock3 = document.getElementById('modish_man_show_xs');
+        var myClock4 = document.getElementById('the_weekender_show_xs');
+
+        var displaySetting = myClock.style.display;
+
+        var clockButton = document.getElementById('debonair_xs');
+        var clockButton2 = document.getElementById('corporate_man_xs');
+        var clockButton3 = document.getElementById('modish_man_xs');
+        var clockButton4 = document.getElementById('the_weekender_xs');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        } else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+        myClock3.style.display = 'none';
+        myClock4.style.display = 'none';
+    }
         function togglecorporate() {
         var myClock = document.getElementById('corporate_man_show');
         var myClock2 = document.getElementById('the_weekender_show');
@@ -406,6 +1707,172 @@
         myClock2.style.display = 'none';
         myClock3.style.display = 'none';
         myClock4.style.display = 'none';
+    }
+        function togglecorporate_md() {
+        var myClock = document.getElementById('corporate_man_show_md');
+        var myClock2 = document.getElementById('the_weekender_show_md');
+        var myClock3 = document.getElementById('modish_man_show_md');
+        var myClock4 = document.getElementById('debonair_show_md');
+        var displaySetting = myClock.style.display;
+        var clockButton = document.getElementById('corporate_man_md');
+        var clockButton2 = document.getElementById('the_weekender_md');
+        var clockButton3 = document.getElementById('modish_man_md');
+        var clockButton4 = document.getElementById('debonair_md');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        }
+        else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+        myClock3.style.display = 'none';
+        myClock4.style.display = 'none';
+    }
+        function togglecorporate_md_md() {
+        var myClock = document.getElementById('corporate_man_show_md_md');
+        var myClock2 = document.getElementById('the_weekender_show_md_md');
+        var myClock3 = document.getElementById('modish_man_show_md_md');
+        var myClock4 = document.getElementById('debonair_show_md_md');
+        var displaySetting = myClock.style.display;
+        var clockButton = document.getElementById('corporate_man_md_md');
+        var clockButton2 = document.getElementById('the_weekender_md_md');
+        var clockButton3 = document.getElementById('modish_man_md_md');
+        var clockButton4 = document.getElementById('debonair_md_md');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        }
+        else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+        myClock3.style.display = 'none';
+        myClock4.style.display = 'none';
+    }
+        function togglecorporate_sm() {
+        var myClock = document.getElementById('corporate_man_show_sm');
+        var myClock2 = document.getElementById('the_weekender_show_sm');
+        var myClock3 = document.getElementById('modish_man_show_sm');
+        var myClock4 = document.getElementById('debonair_show_sm');
+        var displaySetting = myClock.style.display;
+        var clockButton = document.getElementById('corporate_man_sm');
+        var clockButton2 = document.getElementById('the_weekender_sm');
+        var clockButton3 = document.getElementById('modish_man_sm');
+        var clockButton4 = document.getElementById('debonair_sm');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        }
+        else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+        myClock3.style.display = 'none';
+        myClock4.style.display = 'none';
+    }
+    function togglecorporate_xs() {
+        var myClock = document.getElementById('corporate_man_show_xs');
+        var myClock2 = document.getElementById('the_weekender_show_xs');
+        var myClock3 = document.getElementById('modish_man_show_xs');
+        var myClock4 = document.getElementById('debonair_show_xs');
+        var displaySetting = myClock.style.display;
+        var clockButton = document.getElementById('corporate_man_xs');
+        var clockButton2 = document.getElementById('the_weekender_xs');
+        var clockButton3 = document.getElementById('modish_man_xs');
+        var clockButton4 = document.getElementById('debonair_xs');
+        clockButton.classList.remove('grid_box_cat');
+        clockButton.classList.add('grid_box_cat_current');
+        clockButton2.classList.remove('grid_box_cat_current');
+        clockButton2.classList.add('grid_box_cat');
+        clockButton3.classList.remove('grid_box_cat_current');
+        clockButton3.classList.add('grid_box_cat');
+        clockButton4.classList.remove('grid_box_cat_current');
+        clockButton4.classList.add('grid_box_cat');
+        if (displaySetting == 'block') {
+        myClock.style.display = 'block';
+        }
+        else {
+        myClock.style.display = 'block';
+        }
+        myClock2.style.display = 'none';
+        myClock3.style.display = 'none';
+        myClock4.style.display = 'none';
+    }
+
+    function togglenav() {
+      var myNav = document.getElementById('nav_hidden');
+      var myNav2 = document.getElementById('nav_sm_body');
+      var displaySetting = myNav.style.display;
+      var displaySetting2 = myNav2.style.display;
+      if (displaySetting == 'block') {
+        myNav.style.display = 'none';
+      }
+      else {
+        myNav.style.display = 'block';
+      }
+
+      if (displaySetting2 == 'none') {
+        myNav2.style.display = 'block';
+      }
+      else {
+        myNav2.style.display = 'none';
+      }
+
+    }
+
+    function nav_show() {
+      var myNav = document.getElementById('nav_hidden');
+      var myNav2 = document.getElementById('nav_sm_body');
+      var displaySetting = myNav.style.display;
+      var displaySetting2 = myNav2.style.display;
+      if (displaySetting == 'block') {
+        myNav.style.display = 'none';
+      }
+      else {
+        myNav.style.display = 'block';
+      }
+
+      if (displaySetting2 == 'none') {
+        myNav2.style.display = 'block';
+      }
+      else {
+        myNav2.style.display = 'none';
+      }
+
+    }
+    
+    function tailoring_nav() {
+      var myNav = document.getElementById('tailoring_nav_show');
+      var displaySetting = myNav.style.display;
+      if (displaySetting == 'block') {
+        myNav.style.display = 'none';
+      }
+      else {
+        myNav.style.display = 'block';
+      }
+
     }
     </script>
     <script>
