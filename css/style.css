@@ -336,7 +336,7 @@ nav{
 .custom_txtf2_xs{
     border-radius: 0%;
     height: 64px;
-    width: 210px;
+    width: 200px;
     border-color: #8b7701;
     /* border-top-color: #8b7701; */
     color: #8b7701;
@@ -1432,8 +1432,8 @@ nav{
 .form-box_xs{
     border: 1px solid #fff;
     background-color: #fff;
-    height: 370px ;
-    width: 380px;
+    height: 380px ;
+    width: 350px;
 }
 
 .form-box2{
