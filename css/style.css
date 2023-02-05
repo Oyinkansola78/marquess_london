@@ -1268,8 +1268,8 @@ nav{
 
 .img_box_1_xs{
     height: 690px;
-    width: 430px;
-    margin-left: 7%;
+    width: 360px;
+    /* margin-left: 7%; */
     background-position: center;
 }
 
@@ -1281,7 +1281,7 @@ nav{
 }
 
 .img_box_1_xs2{
-    height: 690px;
+    height: 700px;
     width: 430px;
     margin-left: 7%;
     background-position: left;
@@ -1325,22 +1325,25 @@ nav{
 .text_box_parent2_xs{
     border: 1px solid #fff;
     background-color: #fff;
-    margin-top: 550px;
-    width: 400px;
+    margin-top: 500px;
+    width: 320px;
+    margin-left: 10px;
 }
 
 .text_box_parent2_xsu{
     border: 1px solid #fff;
     background-color: #fff;
-    margin-top: 480px;
-    width: 400px;
+    margin-top: 430px;
+    width: 330px;
+    margin-left: 0px;
 }
 
 .text_box_parent2_xsd{
     border: 1px solid #fff;
     background-color: #fff;
     margin-top: 650px;
-    width: 400px;
+    width: 330px;
+    margin-left: 0px;
 }
 
 .text_box_child2{
@@ -1396,15 +1399,32 @@ nav{
 .text_box_parent4_xs{
     border: 1px solid #fff;
     background-color: #fff;
-    margin-top: 400px;
-    width: 400px;
+    margin-top: 380px;
+    width: 345px;
+}
+
+.text_box_parent4_xs_mm{
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin-top: 360px;
+    width: 320px;
+    margin-left: 0%;
 }
 
 .text_box_parent4_xs_2{
     border: 1px solid #fff;
     background-color: #fff;
-    margin-top: 350px;
-    width: 400px;
+    margin-top: 320px;
+    width: 320px;
+    margin-left: 0px;
+}
+
+.text_box_parent4_xs_2_2{
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin-top: 360px;
+    width: 310px;
+    margin-left: 0px;
 }
 
 .text_box_child4{
