@@ -758,6 +758,11 @@ nav{
     left: -10px;
 }
 
+.img_pr_xs{
+    width: 300px;
+    /* height: 500px; */
+}
+
 /* BUTTONS */
 
 .custom_btn_2{
@@ -1183,6 +1188,42 @@ nav{
     bottom: 0;
     top: 210px;
     left: 20px;
+}
+
+.process-title-link_xs {
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    top: 270px;
+    left: 90px;
+}
+
+.process-title-link_xs2 {
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    top: 750px;
+    left: 100px;
+}
+
+.lifestyle-title-link_xs {
+    color: #000;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    top: 270px;
+    left: 90px;
+}
+
+.lifestyle-title-link_xs2 {
+    color: #000;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    top: 750px;
+    left: 100px;
 }
 
 .lifestyle-title-link {
@@ -1786,16 +1827,30 @@ nav{
 }
 
 .process_img_box_xs{
-    height: 550px;
+    height: 1100px;
     width: 1700px;
     background-color: #fff;
-    padding: 30px 150px;
+    padding: 30px 30px;
     margin-top: 20px;
     overflow: hidden;
     position: relative;
 }
 
 .process_img_box_xs>img{
+   object-fit: cover;
+}
+
+.lifestyle_img_box_xs{
+    height: 1100px;
+    width: 1700px;
+    background-color: #fff;
+    padding: 30px 30px;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.lifestyle_img_box_xs>img{
    object-fit: cover;
 }
 
