@@ -751,8 +751,8 @@ nav{
 }
 
 .directors_xs{
-    height: 330px;
-    width: 400px;
+    height: 290px;
+    width: 370px;
     position: relative;
     top: 50px;
     left: -10px;
@@ -1633,11 +1633,11 @@ nav{
 
 .details_box_xs{
     background-color: #fff;
-    padding-left: 50px;
+    padding-left: 20px;
     padding-top: 64px;
     margin-top: 40px ;
     padding-bottom: 64px;
-    width: 460px ;
+    width: 350px ;
 }
 
 .details_img{
@@ -1669,7 +1669,7 @@ nav{
 
 .details_img_xs{
     background-image: url(../imgs/swank_line/cooperateManLook1.png);
-    width: 400px;
+    width: 320px;
     height: 550px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1686,8 +1686,8 @@ nav{
 
 .details_img2_xs{
     background-image: url(../imgs/swank_line/cooperateManLook2.png);
-    width: 380px;
-    height: 480px;
+    width: 320px;
+    height: 360px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1748,8 +1748,8 @@ nav{
 }
 
 .process_box_xs{
-    height: 850px;
-    width: 450px;
+    height: 900px;
+    width: 370px;
     background-color: #fff;
     padding: 20px;
     margin-top: 20px;
@@ -1812,14 +1812,14 @@ nav{
 }
 
 .process_box_img_sm{
-    height: 450px;
+    height: 500px;
     width: 650px;
     object-fit: cover;
 }
 
 .process_box_img_xs{
-    height: 400px;
-    width: 400px;
+    height: 390px;
+    width: 330px;
     object-fit: cover;
 }
 
@@ -1909,8 +1909,8 @@ nav{
 }
 
 .story_box_xs{
-    height: 1600px;
-    width: 500px;
+    height: 1800px;
+    width: 400px;
     background-color: #fff;
     text-align: justify;
     line-height: 30px;
