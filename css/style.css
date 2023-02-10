@@ -836,6 +836,21 @@ nav{
     color: #fff;
 }
 
+.icons_button_sw{
+    border: 2px solid #998100;
+    background-color: #fff;
+    color: #998100;
+    border-radius: 0%;
+    width: 430px;
+    height: 60px;
+    font-size: 18px;
+}
+
+.icons_button_sw:hover{
+    background-color: #998100;
+    color: #fff;
+}
+
 .icons_button{
     border: 2px solid #000;
     background-color: #fff;
