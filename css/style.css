@@ -300,6 +300,7 @@ nav{
 .debonair6{
     background-image: url(../imgs/debonair/d6.jpg);
     background-size: cover;
+    background-position: left;
 }
 
 .custom_txtf{
@@ -310,7 +311,7 @@ nav{
 
 .custom_txtf2{
     border-radius: 0%;
-    height: 64px;
+    height: 76px;
     width: 500px;
     border-color: #8b7701;
     color: #8b7701;
@@ -469,6 +470,10 @@ nav{
     position: absolute;
     top: 40px;
     /* width: 70px; */
+}
+
+.carousel-item{
+    background-position: top;
 }
 
 .text-border{
@@ -876,14 +881,18 @@ nav{
 .icon-btn-shoulder{
     background-color: white!important;
     color: #998100;
-    border-radius: 50%;
+    border-radius: 100%;
     outline: none;
     cursor: pointer;
     position:relative;
-    padding: 2%;
-    opacity: 0.8;
+    padding: 1%;
+    opacity: 0.6;
     top: -65%;
-    left: -2%;
+    left: -6%;
+}
+
+.icon-btn-shoulder:hover{
+    opacity: 0.8;
 }
 
 .icon-btn-shoulder_sm{
@@ -893,10 +902,14 @@ nav{
     outline: none;
     cursor: pointer;
     position:relative;
-    padding: 2%;
-    opacity: 0.8;
+    padding: 1%;
+    opacity: 0.6;
     top: -65%;
     left: -60%;
+}
+
+.icon-btn-shoulder_sm:hover{
+    opacity: 0.8;
 }
 
 .icon-btn-sleeve{
@@ -906,10 +919,14 @@ nav{
     outline: none;
     cursor: pointer;
     position:relative;
-    padding: 2%;
-    opacity: 0.8;
+    padding: 1%;
+    opacity: 0.6;
     top: -40%;
-    left: 30%;
+    left: 28%;
+}
+
+.icon-btn-sleeve:hover{
+    opacity: 0.8;
 }
 
 .icon-btn-sleeve_sm{
@@ -919,10 +936,14 @@ nav{
     outline: none;
     cursor: pointer;
     position:relative;
-    padding: 2%;
-    opacity: 0.8;
+    padding: 1%;
+    opacity: 0.6;
     top: -40%;
     left: 30%;
+}
+
+.icon-btn-sleeve_sm:hover{
+    opacity: 0.8;
 }
 
 .icon-btn-jc{
@@ -932,10 +953,14 @@ nav{
     outline: none;
     cursor: pointer;
     position:relative;
-    padding: 2%;
-    opacity: 0.8;
+    padding: 1%;
+    opacity: 0.6;
     top: -50%;
-    left: -10%;
+    left: -13%;
+}
+
+.icon-btn-jc:hover{
+    opacity: 0.8;
 }
 
 .icon-btn-lp{
@@ -945,10 +970,14 @@ nav{
     outline: none;
     cursor: pointer;
     position:relative;
-    padding: 2%;
-    opacity: 0.8;
+    padding: 1%;
+    opacity: 0.6;
     top: -58%;
-    left: -1%;
+    left: 2%;
+}
+
+.icon-btn-lp:hover{
+    opacity: 0.8;
 }
 
 .icon-btn-ft{
@@ -958,10 +987,14 @@ nav{
     outline: none;
     cursor: pointer;
     position:relative;
-    padding: 2%;
-    opacity: 0.8;
+    padding: 1%;
+    opacity: 0.6;
     top: -38%;
-    left: -10%;
+    left: -8%;
+}
+
+.icon-btn-ft:hover{
+    opacity: 0.8;
 }
 
 .icon-btn-bc{
@@ -971,10 +1004,14 @@ nav{
     outline: none;
     cursor: pointer;
     position:relative;
-    padding: 2%;
-    opacity: 0.8;
+    padding: 1%;
+    opacity: 0.6;
     top: -16%;
-    left: -1%;
+    left: 3%;
+}
+
+.icon-btn-bc:hover{
+    opacity: 0.8;
 }
 
 /* SHOWCASES */
@@ -1024,7 +1061,7 @@ nav{
 }
 
 .sl_showcase_txt_box{
-    height: 300px;
+    height: 240px;
     width: 332px;
     font-size: 18px;
     text-align: justify;
@@ -1561,6 +1598,7 @@ nav{
     background-color: #fff;
     height: 300px;
     padding: 40px 20px;
+    border-bottom: 4px solid #998100;
 }
 
 .text_box_steps_1_md{
@@ -1608,7 +1646,7 @@ nav{
 }
 
 .text_box_steps_child{
-    border-bottom: 4px solid #998100;
+    /* border-bottom: 4px solid #998100; */
     background-color: #fff;
     /* margin-top: 40px; */
     padding-bottom: 40px;
@@ -1621,7 +1659,7 @@ nav{
 }
 
 #lookbook_1{
-    height: 145px;
+    height: 155px;
     background-color: #fff;
 }
 
@@ -1755,7 +1793,7 @@ nav{
 .img-resize5{
     object-fit: cover;
     width: 70%;
-    height: 400px
+    height: 450px;
 }
 
 .process_box{
