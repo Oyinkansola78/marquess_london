@@ -1970,11 +1970,12 @@ nav{
 } */
 
 .story_box{
-    height: 720px;
+    height: 790px;
     width: 1500px;
     background-color: #fff;
     text-align: justify;
     line-height: 30px;
+    padding-bottom: 20px;
 }
 
 .story_box_md{
