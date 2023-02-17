@@ -1027,6 +1027,13 @@ nav{
     background-position: bottom;
 }
 
+#showcase_l{
+    background-image: url(../imgs/lifestyle/l1.jpg);
+    background-size: cover;
+    height: 250px;
+    background-position:left;
+}
+
 #showcase_sl{
     background-image: url(../imgs/swank_line/s1.jpg);
     background-size: cover;
@@ -2019,6 +2026,48 @@ nav{
 .hp_box{
     background-color: #fff;
     /* padding: 10px; */
+}
+
+.lifestyle_box{
+    height: 520px;
+    background-color: #ffffff;
+    margin-top: 60px;
+    width: 1000px;
+    margin-left: 130px;
+    padding: 50px 60px;
+    
+}
+
+.lifestyle_box2{
+    height: 520px;
+    background-color: #ffffff;
+    width: 1000px;
+    margin-left: 450px;
+    padding: 50px 60px;
+    
+}
+
+.bord{
+    border-top: 4px solid #998100;
+    margin-top: 100px;
+}
+
+.music_text{
+    /* margin-top: 80px;
+    margin-left: -80px; */
+    position: relative;
+    left: 1130px;
+    top: -520px;
+    /* top: 180px;
+    left: 290px; */
+}
+
+.music_text2{
+    position: relative;
+    top: 180px;
+    left: 290px;
+    /* margin-top: 190px; */
+    /* margin-left: -80px; */
 }
 
 
