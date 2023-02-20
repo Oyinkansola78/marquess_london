@@ -1037,20 +1037,20 @@ nav{
 #showcase_sl{
     background-image: url(../imgs/swank_line/s1.jpg);
     background-size: cover;
-    height: 400px;
+    height: 370px;
     background-position: bottom;
 }
 
 #showcase_hp{
     background-size: cover;
-    height: 400px;
+    height: 440px;
     background-position: bottom;
 }
 
 #showcase_ml{
     background-image: url(../imgs/modcon/m1_2.jpg);
     background-size: cover;
-    height: 400px;
+    height: 370px;
     background-position: left;
 }
 
@@ -1078,10 +1078,20 @@ nav{
     font-size: 18px;
     text-align: justify;
     margin-right: 150px;
-    margin-top: 70px;
+    margin-top: 50px;
     background: rgba(0, 0, 0, 0.2);
     box-shadow: 0 30px 40px 40px rgba(0,0,0,0.3);
-    /* backdrop-filter: blur(3px);  */
+}
+
+.sl_showcase_txt_box_xs{
+    height: 240px;
+    width: 332px;
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 150px;
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 30px 40px 40px rgba(0,0,0,0.3);
 }
 
 /* FLEX AND GRIDS */
@@ -1807,6 +1817,7 @@ nav{
     object-fit: cover;
     width: 70%;
     height: 450px;
+    background-position: bottom;
 }
 
 .process_box{
