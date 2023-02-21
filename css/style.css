@@ -769,14 +769,9 @@ nav{
     font-size: 18px;
 }
 
-.custom_btn_banner:hover{
-    background-color: #998100;
-    color: #fff;
-}
-
 .custom_btn_banner{
-    border: 1px solid #b8a78d;
-    background-color: #b8a78d;
+    border: 1px solid #998100;
+    background-color: #998100;
     color: #fff;
     border-radius: 0%;
     width: 120px;
@@ -790,7 +785,27 @@ nav{
 }
 
 .custom_btn_banner:hover{
+    background-color: #8b7701;
+    color: #fff;
+}
+
+.custom_btn_banner2{
+    border: 1px solid #998100;
     background-color: #998100;
+    color: #fff;
+    border-radius: 0%;
+    width: 120px;
+    height: 64px;
+    font-size: 18px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /* margin-left: 450px;
+    margin-top: -1000px; */
+}
+
+.custom_btn_banner2:hover{
+    background-color: #8b7701;
     color: #fff;
 }
 
