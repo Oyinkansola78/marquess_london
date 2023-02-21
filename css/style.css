@@ -1814,10 +1814,10 @@ nav{
 }
 
 .img-resize5{
-    object-fit: cover;
+    object-fit:cover;
     width: 70%;
     height: 450px;
-    background-position: bottom;
+    /* background-position: bottom; */
 }
 
 .process_box{
