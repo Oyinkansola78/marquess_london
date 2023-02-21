@@ -304,9 +304,9 @@ nav{
 }
 
 .custom_txtf{
-    border-radius: 0%;
-    height: 64px;
-    width: 253px;
+    border: 2px solid #8b7701;
+    height: 60px;
+    width: 400px;
 }
 
 .custom_txtf2{
@@ -780,8 +780,6 @@ nav{
     position: relative;
     top: -60px;
     left: 450px;
-    /* margin-left: 450px;
-    margin-top: -1000px; */
 }
 
 .custom_btn_banner:hover{
@@ -795,13 +793,11 @@ nav{
     color: #fff;
     border-radius: 0%;
     width: 120px;
-    height: 64px;
+    height: 60px;
     font-size: 18px;
     position: relative;
-    top: 0px;
-    left: 0px;
-    /* margin-left: 450px;
-    margin-top: -1000px; */
+    top: -60px;
+    left: 400px;
 }
 
 .custom_btn_banner2:hover{
