@@ -311,25 +311,25 @@ nav{
 
 .custom_txtf2{
     border: 2px solid #8b7701;
-    height: 76px;
-    width: 500px;
+    height: 60px;
+    width: 450px;
 }
 
 .custom_txtf2_md_md{
     border: 2px solid #8b7701;
-    height: 64px;
-    width: 400px;
+    height: 48px;
+    width: 350px;
 }
 
 .custom_txtf2_sm{
     border: 2px solid #8b7701;
-    height: 64px;
-    width: 270px;
+    height: 48px;
+    width: 220px;
 }
 
 .custom_txtf2_xs{
     border: 2px solid #8b7701;
-    height: 64px;
+    height: 48px;
     width: 200px;
 }
 
@@ -779,8 +779,14 @@ nav{
     background-color: #b8a78d;
     color: #fff;
     border-radius: 0%;
-    width: 143px;
+    width: 120px;
+    height: 60px;
     font-size: 18px;
+    position: relative;
+    top: -60px;
+    left: 450px;
+    /* margin-left: 450px;
+    margin-top: -1000px; */
 }
 
 .custom_btn_banner:hover{
