@@ -1060,8 +1060,8 @@ nav{
 
 #showcase_hp{
     background-size: cover;
-    height: 440px;
-    background-position: bottom;
+    height: 490px;
+    /* background-position: bottom; */
 }
 
 #showcase_ml{
@@ -1833,7 +1833,7 @@ nav{
 .img-resize5{
     object-fit:cover;
     width: 70%;
-    height: 450px;
+    height: 500px;
     /* background-position: bottom; */
 }
 
