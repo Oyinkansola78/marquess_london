@@ -450,6 +450,25 @@ nav{
     /* padding: 18px 18px 18px 100px; */
 }
 
+.faq_box_hide_l{
+    display: none;
+    height: 80px;
+    background-color: #c4c4c4;
+    color: #fff;
+    padding-top: 20px ;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    width: 550px;
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    /* padding: 18px 18px 18px 100px; */
+}
+
 .faq_box_hide{
     display: none;
     height: 70px;
