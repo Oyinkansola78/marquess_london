@@ -217,39 +217,41 @@
             <div class="container">
                 <div class="d-flex justify-content-between"style="border-top: 4px solid #8b7701; padding-top:60px; margin-top: 80px">
                     <div class="">
-                        <div class="faq_box" onclick="faq_show()" id="faq_btn">
+                        <div class="faq_box" onclick="faq_showl()" id="faq_btnl">
                             <i class="fa-solid fa-plus pe-5" style="border-right: 2px solid #fff; display: inline; "></i>
                             <span class="px-3"> What does the lifestyle aspect involve?</span>
                         </div>
-                        <div class="faq_box2 container" onclick="faq_show1_2()" id="faq_show1">
+                        <div class="faq_box2 container" onclick="faq_showl_2()" id="faq_showl1">
                             <i class="fa-solid fa-minus pe-5" style="border-right: 2px solid #fff;"></i>
                             <span  class="px-3 pb-5 "> What does the lifestyle aspect involve?</span>
                             <p class="pt-3 mt-3" style="border-top: 2px solid #fff;">The Marquess lifestyle is all about getting curated lifestyle experiences that complement your style. Through lifestyle, we want to empower you with the resources you need to be the best version of yourself.</p>
                         </div>
-                        <div class="faq_box_hide" onclick="faq_show2()" id="faq_btn2">
+                        <div class="faq_box_hide" onclick="faq_showl2()" id="faq_btnl2">
                             <i class="fa-solid fa-plus pe-5" style="border-right: 2px solid #fff; display: inline; "></i>
-                            <span class="px-3"> Can I become part of the community through the lifestyle offerings?</span>
+                            <span class="px-3"> Can I become part of the community through the lifestyle</span>
+                            <span style="margin-left: 85px;">offerings?</span>
                         </div>
-                        <div class="faq_box2_show container" onclick="faq_show2_2()" id="faq_show2">
+                        <div class="faq_box2_show container" onclick="faq_showl2_2()" id="faq_showl2">
                             <i class="fa-solid fa-minus pe-5" style="border-right: 2px solid #fff;"></i>
                             <span  class="px-3 pb-5 "> Can I become part of the community through the </span>
                             <span style="margin-left: 85px;">lifestyle offerings?</span>
                             <p class="pt-3 mt-3" style="border-top: 2px solid #fff;">Yes, once you subscribe to our exclusive lifestyle channel, you are considered part of the community. (Potentially remain coming soon ).</p>
                         </div>
-                        <div class="faq_box" onclick="faq_show3()" id="faq_btn3">
+                        <div class="faq_box" onclick="faq_showl3()" id="faq_btnl3">
                             <i class="fa-solid fa-plus pe-5" style="border-right: 2px solid #fff; display: inline; "></i>
                             <span class="px-3"> What experiences are offered through the lifestyle aspect?</span>
                         </div>
-                        <div class="faq_box2 container" onclick="faq_show3_2()" id="faq_show3">
+                        <div class="faq_box2 container" onclick="faq_showl3_2()" id="faq_showl3">
                             <i class="fa-solid fa-minus pe-5" style="border-right: 2px solid #fff;"></i>
-                            <span  class="px-3 pb-5 "> What experiences are offered through the lifestyle aspect?</span>
+                            <span  class="px-3 pb-5 "> What experiences are offered through the lifestyle</span>
+                            <span style="margin-left: 85px;">aspect?</span>
                             <p class="pt-3 mt-3" style="border-top: 2px solid #fff;">Coming soon.</p>
                         </div>
-                        <div class="faq_box" onclick="faq_show4()" id="faq_btn4">
+                        <div class="faq_box" onclick="faq_showl4()" id="faq_btnl4">
                             <i class="fa-solid fa-plus pe-5" style="border-right: 2px solid #fff; display: inline; "></i>
                             <span class="px-3"> Is it exclusive to only clients?</span>
                         </div>
-                        <div class="faq_box2 container" onclick="faq_show4_2()" id="faq_show4">
+                        <div class="faq_box2 container" onclick="faq_showl4_2()" id="faq_showl4">
                             <i class="fa-solid fa-minus pe-5" style="border-right: 2px solid #fff;"></i>
                             <span  class="px-3 pb-5 "> Is it exclusive to only clients?</span>
                             <p class="pt-3 mt-3" style="border-top: 2px solid #fff;">Our lifestyle channel is exclusive to the existing Marquess London community, but some lifestyle tips and events will be made available to all.</p>
@@ -652,6 +654,94 @@
         function faq_show9_2() {
             var x = document.getElementById("faq_show9");
             var y = document.getElementById("faq_btn9");
+            if (y.style.display === "block") {
+                y.style.display = "none";
+                x.style.display = "block";
+            } else {
+                y.style.display = "block";
+                x.style.display = "none";
+            }
+        }
+        function faq_showl() {
+            var x = document.getElementById("faq_showl1");
+            var y = document.getElementById("faq_btnl");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+                y.style.display = "block";
+            } else {
+                x.style.display = "block";
+                y.style.display = "none";
+            }
+        }
+        function faq_showl_2() {
+            var x = document.getElementById("faq_showl1");
+            var y = document.getElementById("faq_btnl");
+            if (y.style.display === "block") {
+                y.style.display = "none";
+                x.style.display = "block";
+            } else {
+                y.style.display = "block";
+                x.style.display = "none";
+            }
+        }
+        function faq_showl2() {
+            var x = document.getElementById("faq_showl2");
+            var y = document.getElementById("faq_btnl2");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+                y.style.display = "block";
+            } else {
+                x.style.display = "block";
+                y.style.display = "none";
+            }
+        }
+        function faq_showl2_2() {
+            var x = document.getElementById("faq_showl2");
+            var y = document.getElementById("faq_btnl2");
+            if (y.style.display === "block") {
+                y.style.display = "none";
+                x.style.display = "block";
+            } else {
+                y.style.display = "block";
+                x.style.display = "none";
+            }
+        }
+        function faq_showl3() {
+            var x = document.getElementById("faq_showl3");
+            var y = document.getElementById("faq_btnl3");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+                y.style.display = "block";
+            } else {
+                x.style.display = "block";
+                y.style.display = "none";
+            }
+        }
+        function faq_showl3_2() {
+            var x = document.getElementById("faq_showl3");
+            var y = document.getElementById("faq_btnl3");
+            if (y.style.display === "block") {
+                y.style.display = "none";
+                x.style.display = "block";
+            } else {
+                y.style.display = "block";
+                x.style.display = "none";
+            }
+        }
+        function faq_showl4() {
+            var x = document.getElementById("faq_showl4");
+            var y = document.getElementById("faq_btnl4");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+                y.style.display = "block";
+            } else {
+                x.style.display = "block";
+                y.style.display = "none";
+            }
+        }
+        function faq_showl4_2() {
+            var x = document.getElementById("faq_showl4");
+            var y = document.getElementById("faq_btnl4");
             if (y.style.display === "block") {
                 y.style.display = "none";
                 x.style.display = "block";
