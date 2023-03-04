@@ -567,6 +567,10 @@ nav{
     font-size: 16px;
 }
 
+.smalll{
+    font-size: 18px;
+}
+
 .normal{
     font-size: 24px;
 }
@@ -576,7 +580,7 @@ nav{
 }
 
 .medium{
-    font-size: 46px;
+    font-size: 48px;
 }
 
 .mediumm{
@@ -601,14 +605,16 @@ nav{
 
 .carousel_text{
     position: absolute;
-    top: 60px;
-    /* width: 1000px; */
+    top: 120px;
+    left: 1000px;
+    width: 500px;
 }
 
 .carousel_text2{
     position: absolute;
-    top: 40px;
-    /* width: 70px; */
+    top: 120px;
+    left: 100px;
+    width: 500px;
 }
 
 .carousel-item{
@@ -908,6 +914,23 @@ nav{
 }
 
 /* BUTTONS */
+
+.btn_carousel{
+    border: 2px solid #8b7701;
+    background-color: transparent;
+    color: #8b7701;
+    border-radius: 0%;
+    width: 500px;
+    font-size: 19px;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+.btn_carousel:hover{
+    border: 1px solid #8b7701;
+    background-color: #8b7701;
+    color: #fff;
+}
 
 .custom_btn_2{
     border: 1px solid #b8a78d;
@@ -1983,7 +2006,7 @@ nav{
     object-fit:cover;
     width: 70%;
     height: 500px;
-    /* background-position: bottom; */
+    background-position: top;
 }
 
 .process_box{
@@ -2212,6 +2235,7 @@ nav{
     width: 1000px;
     margin-left: 130px;
     padding: 50px 60px;
+    margin-bottom: 0;
     
 }
 
@@ -2231,19 +2255,19 @@ nav{
 }
 
 .music_text{
-    /* margin-top: 80px;
-    margin-left: -80px; */
     position: relative;
-    left: 1130px;
-    top: -520px;
-    /* top: 180px;
-    left: 290px; */
+    top: -500px;
+    left: 1120px;
+    width: 0; height: 0
+    /* left: 1130px;
+    top: -520px; */
 }
 
 .music_text2{
     position: relative;
-    top: 180px;
-    left: 290px;
+    top: 30px;
+    left: 350px;
+    width: 0; height: 0
     /* margin-top: 190px; */
     /* margin-left: -80px; */
 }
